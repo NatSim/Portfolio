@@ -1,44 +1,81 @@
 <!DOCTYPE html>
-<html>
- <head>
-  <meta charset ="utf-8">
-  <title>Natasha Web Developer</title>
-  <link rel="stylesheet" href="C:\Users\Natasha\Desktop\Documents\Unit1&2\My Portfolio\CSS Style Sheet.css" width="500" height="600">
- </head>
- <body>
-     <h1>Natasha Bigford's Portfolio</h1>
-     <main>
-     <h2>Hello World! I am a developer</h2>
-     <h3>About me</h3>
+ <html lang="en">
+  <head>
+   <meta charset ="utf-8"> 
+   <title>Natasha Web Developer</title><!--Title shown at top bartab-->
+     <link rel="stylesheet" href="C:\Users\Natasha\Desktop\BlackCodher\Unit1&2\My Portfolio(WebPage)\CSS Style Sheet.css" width="500" height="600"> <!--CSS Stylesheet linked-->
+     </head>
+
+    <body> <!--Body is the parent of section,&grand-parent of h1/main &h2 etc-->
+     <header><!--h1 and main are descendants of section-->
+      <div class="container!">
+          <h1 style="color: rgba(255, 255, 255, 0.452);">Natasha Bigford's Portfolio</h1>                  <!--This is a heading with inline styling to set it as black-->
+            
+          <h2>Hello World! I am a developer,to find out more click here.</h2> 
+    </div>
+           <nav>
+       
+      <a href="#home">Home</a>
+      <a href="#about">About</a>
+      <a href="#portfolio">Portfolio</a>
+      <a href="#contact">Contact</a>
+      </nav> 
+     </header>
+     
+      <main>
+       <!--ABOUT ME: h3 and p are descendants of section-->
+        <h3><strong></strong>About me</h3></strong></h3>
+        <p><strong>I am currently training to become a web developer on a Black CodHer course. I specialize in designing forward-thinking and innovative webpages thats convey a business's message clearly.</strong></p>
      </main>
+   </section>
+  
    <div>
-       <img src="https://th.bing.com/th/id/OIP.bMJoVH1i9gQoDWM17ZedDwHaHa?w=150&h=180&c=7&o=5&pid=1.7" alt="Photo of Natasha"Video not supported>
+       <img src="C:\Users\Natasha\Desktop\BlackCodher\Unit1&2\My Portfolio(WebPage)\HTML Images\IMG_2018 (3).JPG" height="306.1px" width="204.1px" alt="Photo of Natasha"Photo not supported>
    
    </div>
           
-   <div>
-       <video src=" width="320" height= "240" controls>"https://www.youtube.com/watch?v=6stlCkUDG_s&list=PL4Gr5tOAPttLOY9IrWVjJlv4CtkYI5cI_" type="video"> This file is not supported.
-       </video>
+   <div> <!--PROGRAMME USE :info,would like the percentage style%-->
+    <ul>
+      <li>HTML</li>
+      <li>CSS</li>
+      <li>JavaScript</li>
+    </ul> 
 
    </div> 
 
-    <p><strong>Contact me</strong></p>
-    <p>Please fill in the form below</p>
+   <section>
+     <h4>Customer Testimonials</h4> <!--CUSTOMER QUOTES-->
+     <ul><!---Blockquote is citing big sections (q for small sections)from another source-->
+       <li><q><em>I was over the moon with the design of the website. There was zero hassle via consultation and Natasha completly understood the vibe I was going for. Definetly recommend</q></em></li>
+     </ul>
+     <a></a> <!--a is ancor,i would like here to link to webpages I've designed-->
+   </section>
 
-    <form action="action_page.php"></form>
+   <footer> 
+    <section> <!--CONTACT ME: section form-->
+     <br></br>
+      <p><strong>Contact me</strong></p>
+      <p>Please fill in the form below.</p>
 
-      <label for="name" >Name</label>
-      <input type="text" id="name" name="name" placeholder="Your name">
-      <label for="email"email>Email</label>
-      <input type="text" id="email" email="email" placeholder="Your email"> 
+    
 
-      <label for="subject" name="subject">Subject</label> placeholder="How can I help?"
-      <textarea id=" subject" name="subject" placeholder="Would you like a consultation!'
-      style="height:250px></textarea>
+        <form action="action_page.php"></form>
+
+        <label for="name" >Name</label>
+        <input type="text" id="name" name="name" placeholder="Your name">
+        <label for="email"email>Email</label>
+        <input type="text" id="email" email="email" placeholder="Your email"> 
        
-    <input type="submit" value='Submit'>
+        <br></br> 
+        <label for="subject" name="subject">Subject<br></label><textarea id=" subject" name="subject" placeholder="Would you like a consultation!"
+        style ="height:250px" style = "width:150px"> 
+        </textarea></br><!--would like width of box larger-->
+        <input type="submit" value='Submit'>
+     
+       
+         
 
- 
- 
+    </section>
+    </footer> 
     </body>
  </html>
