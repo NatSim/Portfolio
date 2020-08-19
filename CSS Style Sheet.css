@@ -1,0 +1,57 @@
+
+  body{     /*About me section*/
+
+    margin: auto;
+    background: burlywood;
+    max-width: 700px;
+  }
+  
+
+.home{
+  border: 10px sandybrown;
+  max-width: auto;
+
+  height: 50vh;
+  display: flex;
+  align-items: center;
+}
+ 
+
+
+a {
+  font-family: sans-serif;
+  align-self: stretch;
+
+
+}
+
+.container h1 {
+  font-family: sans-serif;
+  color: aliceblue;
+  font-size: 25px; 
+  
+}
+
+h2{ 
+  font-family: sans-serif;
+  color: aliceblue;
+  font-size: 30px;
+}
+
+
+h3{
+  font-family: sans-serif;
+  color: aliceblue;
+  font-size: 40px ;
+}
+
+
+.about {
+    
+}
+
+p{
+  font-family: fantasy;
+  color: aliceblue;
+
+}
