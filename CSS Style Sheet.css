@@ -16,7 +16,10 @@
   align-items: center;
 }
  
-
+.name h3 {
+  font-family: initial;
+  color: aquamarine;
+}
 
 a {
   font-family: sans-serif;
@@ -46,9 +49,7 @@ h3{
 }
 
 
-.about {
-    
-}
+  
 
 p{
   font-family: fantasy;

@@ -1,46 +1,45 @@
 <!DOCTYPE html>
- <html lang="en">
-  <head>
-   <meta charset ="utf-8"> 
-   <title>Natasha Web Developer</title><!--Title shown at top bartab-->
+ <html lang="en"> <!--the language the webpage is in-->
+  <head> <!--info in head is unseen on the webpage-->
+   <meta charset ="utf-8"> <!--character set for document,binary computer language,helps avoid problems later-->
+   <meta name = "Natasha Simone" content="programming portfolio">
+   <title>Natasha Software Developer</title><!--Title shown at top bartab-->
      <link rel="stylesheet" href="C:\Users\Natasha\Desktop\rootfolder\CSS Style Sheet.css" width="500" height="600"> <!--CSS Stylesheet linked-->
-      
-    </head>
+  </head>
 
-    <body> <!--Body is the parent of section,&grand-parent of h1/main &h2 etc-->
-     <header><!--h1 and main are descendants of section-->
+    <body> <!--Body is the parent of header,&grand-parent of nav etc-->
+     <header><!--nav/a are descendants of header, who is parent to them,can include logos/favicons?&authorship details-->
     
-      <nav class="navbar"> <!--How to link to seperate pages-->
-        <ul>
-      <a href="#index.html">Home</a>
-      <a href="#about.html">About</a>
-      <a href="#portfolio.html">Portfolio</a>
-      <a href="#contact.html">Contact</a>
-    </ul>
-  </nav> 
+      <nav class="navbar"> <!--How users navigate around site, links to seperate pages-->
+        
+         <a href="#index.html">Home</a>
+         <a href="#about.html">About</a>
+         <a href="#portfolio.html">Portfolio</a>
+         <a href="#contact.html">Contact</a>
+      </nav> 
 </header>
-      </header>
-
       
-       <div id="home">
-        <section class="container">
-          <h1>Hello, World!</h1>
+
+      <main>
+       <div id="index"> <!--?-->
+        <section class="container"> <!--element seperating or expanding &grouping common content/class reference for css styling-->
+          <h1><strong>Hello, World!</strong></h1>
           <h2>  I am... </h2>
-          <h3>Natasha Bigford. A trainee software developer. </h3> 
+          <h3> Natasha Bigford. A trainee software developer.</h3><!--i want name to be green color-->
          </div>     
         </section>
 
         <section class="about">
-          <div id="About"> 
+          <div id="#about"> 
            <!--ABOUT ME: h3 and p are descendants of section-->
             <h2><strong>About me</strong></h2>
             <h3><strong>I am currently training to become a software developer on the Black CodHer course. I specialize in designing forward-thinking, innovative and unique webpages that stand out from the crowd and most importantly convey a business's message clearly.</strong></h3>
-        </div>
-      
+          </div>
+        </section>
        
-      
-       <div>
-         <p>Meet the face behind the page</p>
+       <section>
+         <div>
+          <p>Meet the face behind the page</p>
          
            <img src="C:\Users\Natasha\Desktop\BlackCodher\Unit1&2\My Portfolio(WebPage)\HTML Images\IMG_2018 (3).JPG" height="306.1px" width="204.1px" alt="Photo of Natasha"Photo not supported>
        
@@ -65,16 +64,11 @@
      </section>
   
      <footer> 
-     
-  
-      </section>
-      </footer> 
-    <section> <!--CONTACT ME: section form-->
-     
-        <br><strong>Contact</strong></br>
+      <section> <!--CONTACT ME: section form-->
+       <br><strong>Contact</strong></br>
         <p>Please fill in the form below.</p>
   
-      
+      <!--insert button here "book free consultation now"-->
   
           <form action="action_page.php"></form>
   
@@ -90,6 +84,7 @@
           <input type="submit" value='Submit'>
        
              
-     </section>
+      </section>
+     </footer>
     </body>
  </html>
