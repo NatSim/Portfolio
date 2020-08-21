@@ -1,58 +1,62 @@
+body{     /*section*/
 
-  body{     /*About me section*/
+  margin: auto;
+  background: burlywood;
+  max-width: 700px;
+}
 
-    margin: auto;
-    background: burlywood;
-    max-width: 700px;
-  }
-  
 
 .home{
-  border: 10px sandybrown;
-  max-width: auto;
+border: 10px sandybrown;
+max-width: auto;
 
-  height: 50vh;
-  display: flex;
-  align-items: center;
+height: 50vh;
+display: flex;
+align-items: center;
 }
- 
+
 .name h3 {
-  font-family: initial;
-  color: aquamarine;
+font-family: initial;
+color: aquamarine;
 }
 
 a {
-  font-family: sans-serif;
-  align-self: stretch;
+font-family: sans-serif;
+align-self: stretch;
 
 
 }
-
+/*Intro Name Section*/
 .container h1 {
-  font-family: sans-serif;
+font-family: sans-serif;
+color: aliceblue;
+font-size: 25px; 
+
+}
+/*About Me Section*/
+.about h1 {
+  font-family:sans-serif;
   color: aliceblue;
-  font-size: 25px; 
-  
 }
 
 h2{ 
-  font-family: sans-serif;
-  color: aliceblue;
-  font-size: 30px;
+font-family: sans-serif;
+color: aliceblue;
+font-size: 30px;
 }
 
 
 h3{
-  font-family: sans-serif;
-  color: aliceblue;
-  font-size: 40px ;
+font-family: sans-serif;
+color: aliceblue;
+font-size: 40px ;
 }
 
 
-  
+
 
 p{
-  font-family: fantasy;
-  color: aliceblue;
+font-family: sans-serif;
+color: aliceblue;
 
 }
