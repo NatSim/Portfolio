@@ -9,35 +9,61 @@ body{     /*section*/
 .home{
 border: 10px sandybrown;
 max-width: auto;
-
 height: 50vh;
 display: flex;
 align-items: center;
 }
 
-.name h3 {
-font-family: initial;
-color: aquamarine;
-}
-
+/*Nav Bar */
 a {
 font-family: sans-serif;
 align-self: stretch;
 
-
 }
-/*Intro Name Section*/
-.container h1 {
+/*Intro Name Section */
+#hello  {
 font-family: sans-serif;
 color: aliceblue;
-font-size: 25px; 
+font-size: 35px; 
+text-align: center;
+} 
 
-}
+#iam {
+  font-family: sans-serif;
+  color: aliceblue;
+  font-size: 45px; 
+  text-align: center;
+  } 
+
+#natbig {
+  font-family: sans-serif;
+  color: rgb(248, 241, 139);
+  font-size: 55px; 
+  text-align: center;
+  }
+
+  #creative {
+    font-family: sans-serif;
+  color: aquamarine; 
+  text-align: center;
+  }
+
+
 /*About Me Section*/
-.about h1 {
+.about {
   font-family:sans-serif;
   color: aliceblue;
+  font-size: 25px; 
+  text-align: center;
 }
+
+h1 { 
+  font-family: sans-serif;
+  color: aliceblue;
+  font-size: 30px;
+  text-align: center;
+  }
+  
 
 h2{ 
 font-family: sans-serif;
@@ -49,7 +75,7 @@ font-size: 30px;
 h3{
 font-family: sans-serif;
 color: aliceblue;
-font-size: 40px ;
+
 }
 
 
@@ -58,5 +84,6 @@ font-size: 40px ;
 p{
 font-family: sans-serif;
 color: aliceblue;
+font-size: 25px;
 
 }
