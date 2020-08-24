@@ -4,7 +4,6 @@ body{     /*section*/
   background-image: url(../BlackCodher/Unit1&2/BlackCodHer/HTML\ Images/Background_image3.jpg);
   max-width: 700px;
   padding: 100px 50px;
-  background-repeat: no-repeat;
   background-size: contain;
 }
 
@@ -22,7 +21,7 @@ a {
 font-family: sans-serif;
 align-self: stretch;
 font-family:sans-serif;
-color:blueviolet;
+color:rgb(55, 43, 226);
 font-size: 20px;
 
 
