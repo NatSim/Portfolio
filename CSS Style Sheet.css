@@ -16,14 +16,16 @@ align-items: center;
 }
 
 /*Nav Bar */
-.navbar a {
+.navbar a  {
+border: 1.5pt solid;
+border-radius: 40px; 
 display: inline-flex; 
 flex-direction: row;
-
+text-decoration: none;
 font-family: sans-serif;
 /*align-self: stretch; */
 font-family:sans-serif;
-color:rgb(55, 43, 226);
+color:rgb(88, 235, 144);
 font-size: 20px;
 
 }  
