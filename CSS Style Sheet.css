@@ -1,15 +1,13 @@
 body{     /*section*/
 
   margin: auto;
-  background: burlywood;
+  background-image: url(../BlackCodher/Unit1&2/BlackCodHer/HTML\ Images/Background_image3.jpg);
   max-width: 700px;
-  padding: 35.5px;
-
- 
+  padding: 50px 50px;
+  background-size: contain;
 }
 
-
-.home{
+.home {
 border: 10px sandybrown;
 max-width: auto;
 height: 50vh;
@@ -18,15 +16,20 @@ align-items: center;
 }
 
 /*Nav Bar */
-a {
+.navbar a  {
+display: inline-flex; 
+flex-direction: row;
+text-decoration: none;
 font-family: sans-serif;
-align-self: stretch;
+/*align-self: stretch; */
 font-family:sans-serif;
-color:blueviolet;
+color:rgb(88, 235, 144);
 font-size: 20px;
+outline-style: double;
+
+}  
 
 
-}
 /*Intro Name Section */
 #hello  {
 font-family:sans-serif;
@@ -55,20 +58,14 @@ text-align: center;
     text-align: center;
   }
 
-  #clickhere-button {
+  #Scroll {
     font-family:sans-serif;
     color:black;
     font-size: 25px; 
-  }
-
-  #blackcodhercourse {
-    font-family: sans-serif;
-    color: crimson; 
     text-align: center;
   }
 
-
-/*About Me Section*/
+ /*About Me Section*/
 .about {
   font-family:sans-serif;
   color: aliceblue;
@@ -76,34 +73,32 @@ text-align: center;
   text-align: center;
 }
 
+ #blackcodhercourse {
+    font-family: sans-serif;
+    color: crimson; 
+    text-align: center;
+  }
+
+
 h1 { 
   font-family: sans-serif;
   color: aliceblue;
   font-size: 30px;
   text-align: center;
-  }
+  } 
   
 
-h2{ 
+h2, h3 { 
 font-family: sans-serif;
 color: aliceblue;
-font-size: 30px;
+font-size: 25px;
 }
-
-
-h3{
-font-family: sans-serif;
-color: aliceblue;
-
-}
-
-
-
 
 p{
 font-family: sans-serif;
 color: aliceblue;
 font-size: 25px;
+text-align: center;
 
 }
 
@@ -114,7 +109,24 @@ font-size: 25px;
   text-align: center;
 }
 
+/*Customer Testimonials
+section h2 ul li a {
+  descendant combinator example
+}
+   */
+#customer { 
+  font-family: sans-serif;
+  color: rgb(158, 219, 98);
+  font-size: 30px;
+  text-align: center;
+    }
+    
+        
 /*Contact form */
+
+.contact {
+  color:aliceblue;
+}
 input[type=text], textarea {
   border-radius: 4px; /* Rounded borders */
   box-sizing: border-box; /* Make sure that things stay in place */
@@ -127,4 +139,12 @@ input[type=text], textarea {
 /*Submit button*/
 input[type=submit]:hover {
   background-color: rgb(0, 245, 41);
+ } 
+ 
+ #Externalsites {
+   color: rgb(74, 240, 96);
+   font-style: oblique;
+   border: 1.5pt solid;
+   border-radius: 100px;
+   text-decoration: none; 
  }
