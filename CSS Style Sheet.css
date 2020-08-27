@@ -5,6 +5,8 @@ body{     /*section*/
   max-width: 700px;
   padding: 50px 50px;
   background-size: contain;
+  background-repeat: no-repeat;
+
 }
 
 .home {
@@ -13,39 +15,42 @@ max-width: auto;
 height: 50vh;
 display: flex;
 align-items: center;
+
 }
 
 /*Nav Bar */
-.navbar a  {
-display: inline-flex; 
-flex-direction: row;
+.navbar a:hover { 
+
 text-decoration: none;
 font-family: sans-serif;
-/*align-self: stretch; */
+align-self: stretch; 
 font-family:sans-serif;
-color:rgb(88, 235, 144);
+color:aliceblue;
 font-size: 20px;
 outline-style: double;
 
+display: inline-flex;
+flex-direction: row; 
 }  
 
 
 /*Intro Name Section */
-#hello  {
+#hello:hover {
+color: coral;  
 font-family:sans-serif;
 color: aliceblue;
 font-size: 35px; 
 text-align: center;
 } 
 
-#iam {
+#iam:hover {
   font-family:sans-serif;
   color: aliceblue;
   font-size: 45px; 
   text-align: center;
   } 
 
-#natbig {
+#natsim {
   font-family:NSimSun;
   color: rgb(248, 241, 139);
   font-size: 55px; 
@@ -60,7 +65,8 @@ text-align: center;
 
   #Scroll {
     font-family:sans-serif;
-    color:black;
+    color:aliceblue;
+    
     font-size: 25px; 
     text-align: center;
   }
@@ -68,7 +74,7 @@ text-align: center;
  /*About Me Section*/
 .about {
   font-family:sans-serif;
-  color: aliceblue;
+  color: black;
   font-size: 25px; 
   text-align: center;
 }
@@ -86,25 +92,22 @@ h1 {
   font-size: 30px;
   text-align: center;
   } 
-  
 
-h2, h3 { 
+ h2, h3 { 
 font-family: sans-serif;
-color: aliceblue;
+color: black;
 font-size: 25px;
 }
 
 p{
 font-family: sans-serif;
-color: aliceblue;
 font-size: 25px;
 text-align: center;
-
 }
 
 .programmes {
   font-family:consolas;
-  color:aliceblue;
+  color:black;
   font-size: 25px;
   text-align: center;
 }
@@ -113,20 +116,28 @@ text-align: center;
 section h2 ul li a {
   descendant combinator example
 }
-   */
+  
+li:first-child {    descendant selectors last ranking
+  color: steelblue;*/
+
 #customer { 
   font-family: sans-serif;
-  color: rgb(158, 219, 98);
-  font-size: 30px;
+  font-size: 25px;
   text-align: center;
-    }
-    
+ }
+
+ span {
+  font-family:consolas;
+  color:purple;
+  font-size: 25px;
+ }
+
         
 /*Contact form */
 
-.contact {
+.contact {  /*heading*/
   color:aliceblue;
-}
+} 
 input[type=text], textarea {
   border-radius: 4px; /* Rounded borders */
   box-sizing: border-box; /* Make sure that things stay in place */
