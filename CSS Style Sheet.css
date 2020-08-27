@@ -1,19 +1,6 @@
-body{     /*section*/
+@import url ("https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous"
 
-  margin: auto;
-  background-image: url(../BlackCodher/Unit1&2/BlackCodHer/HTML\ Images/Background_image3.jpg);
-  max-width: 700px;
-  padding: 50px 50px;
-  background-size: contain;
-}
 
-.home {
-border: 10px sandybrown;
-max-width: auto;
-height: 50vh;
-display: flex;
-align-items: center;
-}
 
 /*Nav Bar */
 .navbar a  {
