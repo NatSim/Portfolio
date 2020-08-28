@@ -1,16 +1,16 @@
-@import url ("https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous"); 
+/*@import url ("https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous"); */
                /* section */
 body {          
-background-image: url(../BlackCodher/Unit1&2/BlackCodHer/HTML\ Images/Background_image6.jpg); 
+background-image: url(../BlackCodher/Unit1&2/BlackCodHer/HTML\ Images/ben-kolde-bs2Ba7t69mM-unsplash.jpg);
 background-size: contain; 
 background-repeat: no-repeat;
 
      
                 /*Nav Bar */
-* {           
+
 box-sizing: border-box;
 margin: 0;
-padding: 0;
+padding: 15px 20px;
 }
               
 li,a,button {
@@ -42,53 +42,76 @@ padding: 20px 10% ;
  color: yellowgreen;
 }
 
-
+*{
+  color:black;
+  font-family: sans-serif;
+  
+}
             /*Intro Name Section */
-#hello  {   
+.intro-layout {
+/*max-width: 1300px;
+background-color:wheat;  
+margin: 40px auto 0 auto;
+line-height: 1.65;
+padding: 50px 50px; */
+display: flex;
+align-items: center;
+}            
+.hello  {   
 font-family:sans-serif;
 color: aliceblue;
-font-size: 35px; 
-text-align: center;
+font-size: 35px;
+
 } 
-#hello:hover {
+.hello:hover {
 color: yellowgreen;
 }
-#hello:hover {
+.hello:hover {
 transition: all 0.3s ease 0s;
 }
 
-#iam {
+.iam {
 font-family:sans-serif;
 color: rgb(194, 151, 235);
 font-size: 45px; 
-text-align: center;
+
  }
- #iam:hover {
+ .iam:hover {
  color: yellowgreen;
  }  
- #iam:hover {
+ .iam:hover {
   transition: all 0.3s ease 0s;
   }
   
 
 
-#natbig {
-  font-family:NSimSun;
-  color: rgb(248, 241, 139);
-  font-size: 55px; 
-  text-align: center;
+.NatSim {
+ font-family:NSimSun;
+ color: rgb(248, 241, 139);
+ font-size: 55px; 
+ 
   }
-  #natbig:hover {
+.NatSim:hover {
   color: yellowgreen;
   }  
-  #natbig:hover {
+.NatSim:hover {
   transition: all 0.3 ease 0s;  
   }  
 
-  #creative {
-    font-family:NSimSun;
-    color: aquamarine; 
-    text-align: center;
+.creative {
+  font-family:NSimSun;
+  color: aquamarine; 
+  text-align: center;
+}
+/*.creative {
+    color: yellowgreen; */
+    }  */
+.creative:hover {
+    transition: all 0.3 ease 0s;  
+    }  
+
+  em {
+    color: blueviolet;
   }
 
   #Scroll {
@@ -107,7 +130,7 @@ text-align: center;
   text-align: center;
 }
 
- #blackcodhercourse {
+ .blackcodhercourse {
     font-family: sans-serif;
     color: crimson; 
     text-align: center;
@@ -116,21 +139,20 @@ text-align: center;
 
 h1 { 
   font-family: sans-serif;
-  color:antiquewhite;
-  font-size: 30px;
+  font-size: 30px; 
   text-align: center;
   } 
   
 
 h2, h3 { 
 font-family: sans-serif;
-color: tomato;
+color: black;
 font-size: 25px;
 }
 
 p{
 font-family: sans-serif;
-color: rgb(201, 155, 95);
+color:black;
 font-size: 25px;
 text-align: center;
 
@@ -138,23 +160,26 @@ text-align: center;
 
 .programmes {
   font-family:consolas;
-  color: yellowgreen;
+  color: black;
   font-size: 25px;
   text-align: center;
 }
+.programmes,ul,li{
+  list-style: none;
+}
 
         /*Customer Testimonials */
-#customer { 
+.customer, ul,li { 
   font-family: sans-serif;
-  color: rgb(158, 219, 98);
-  font-size: 30px;
+  color:black;
+  font-size: 20px;
   text-align: center;
     }
     
         
         /*Contact form */
 .contact {
-  color:aliceblue;
+  color: black;
 }
 input[type=text], textarea {
   border-radius: 4px; /* Rounded borders */
