@@ -1,168 +1,26 @@
-<!DOCTYPE html>
+ <!DOCTYPE html>
  <html lang="en"> <!--the language the webpage is in-->
   <head> <!--info in head is unseen on the webpage-->
    <meta charset ="utf-8"> <!--character set for document,binary computer language,helps avoid problems later-->
    <meta name = "Natasha Simone" content="programming portfolio">
    
    <title>NatSim Software Developer</title><!--Title shown at top bartab-->
-     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous"> <!--CSS Stylesheet linked-->
+     <link rel="stylesheet" href="CSS Style Sheet.css"> <!--CSS Stylesheet linked-->
   </head>
 
     <body> <!--Body is the parent of header,&grand-parent of nav etc-->
      <header><!--nav/a are descendants of header, who is parent to them,can include logos/favicons?&authorship details-->
     
-      <nav class="navbar"> <!--How users navigate around site, links to seperate pages-->
-        
-         <a href="#index">Home</a>
-         <a href="#about">About</a>
-         <a href="#portfolio">Portfolio</a>
-         <a href="#contact">Contact</a>
-      </nav> 
-     <!--Style Section-->
-  <style>  
-   body {     /*section*/
-    margin: auto;
-    background-image: url(../BlackCodher/Unit1&2/BlackCodHer/HTML\ Images/Background_image6.jpg); 
-    max-width: 700px;
-    padding: 50px 50px;
-    background-size: contain;
-    background-repeat: no-repeat;
-
-    margin-top: 100px 100px ;
-    border: blanchedalmond;
-  
-  }
-  /*Nav Bar */
-.navbar, a {
-font-size: 25px;
-color:antiquewhite;
-}  
-
-
-/*Intro Name Section */
-#hello  {
-font-family:sans-serif;
-color: aliceblue;
-font-size: 35px; 
-text-align: center;
-float: left;
-} 
-
-#iam {
-  font-family:sans-serif;
-  color: rgb(194, 151, 235);
-  font-size: 45px; 
-  text-align: center;
-  float: left;
-  } 
-
-#natbig {
-  font-family:NSimSun;
-  color: rgb(248, 241, 139);
-  font-size: 55px; 
-  text-align: center;
-  float: left;
-  }
-
-  #creative {
-    font-family:NSimSun;
-    color: aquamarine; 
-    text-align: center;
-  }
-
-  #Scroll {
-    font-family:sans-serif;
-    color:antiquewhite;
-    font-size: 25px; 
-    text-align: center;
-    float: left;
-  }
-
- /*About Me Section*/
-.about {
-  font-family:sans-serif;
-  color: black;
-  font-size: 25px; 
-  text-align: center;
-}
-
- #blackcodhercourse {
-    font-family: sans-serif;
-    color: crimson; 
-    text-align: center;
-  }
-
-
-h1 { 
-  font-family: sans-serif;
-  color:antiquewhite;
-  font-size: 30px;
-  text-align: center;
-  } 
-  
-
-h2, h3 { 
-font-family: sans-serif;
-color:rgb(199, 149, 84);
-font-size: 25px;
-}
-
-p{
-font-family: sans-serif;
-color: rgb(201, 155, 95);
-font-size: 25px;
-text-align: center;
-
-}
-
-.programmes {
-  font-family:consolas;
-  color: yellowgreen;
-  font-size: 25px;
-  text-align: center;
-}
-
-/*Customer Testimonials
-section h2 ul li a {
-  descendant combinator example
-}
-   */
-#customer { 
-  font-family: sans-serif;
-  color: rgb(158, 219, 98);
-  font-size: 30px;
-  text-align: center;
-    }
+      <nav>
+         <ul class="navbar"> <!--How to center and spreed out on top-->
+           <li><a href="#index">Home</a></li>
+           <li><a href="#about">About</a></li>
+           <li><a href="#portfolio">Portfolio</a></li>
+           <li><a href="#contact">Contact</a></li>
+         </ul>
+      </nav>
     
-        
-/*Contact form */
-
-.contact {
-  color:aliceblue;
-}
-input[type=text], textarea {
-  border-radius: 4px; /* Rounded borders */
-  box-sizing: border-box; /* Make sure that things stay in place */
-  margin: 6px 0px 16px 0px; /* Top right bottom left margin */
-  padding: 12px; /* Some surrounding space */
-  resize: vertical; /* Allow users to vertically resize the textarea */
-  width: 100%; /* Full width */
-}
-
-/*Submit button*/
-input[type=submit]:hover {
-  background-color: rgb(0, 245, 41);
- } 
- 
- #Externalsites {
-   color: rgb(74, 240, 96);
-   font-style: oblique;
-   border: 1.5pt solid;
-   border-radius: 100px;
-   text-decoration: none; 
- }
-  </style>
-</header>
+  </header>
       
 
       <main>
@@ -187,7 +45,8 @@ input[type=submit]:hover {
 <br></br>
 <br></br>
 <br></br>
-
+<br></br>
+<br></br>
         <div id= "about">
         <section class="about"> <!--would like to branch out other non-central styling option-->
            <!--ABOUT ME: h3 and p are descendants of section-->

@@ -1,36 +1,76 @@
-@import url ("https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous"
+@import url ("https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous"); 
+               /* section */
+body {          
+background-image: url(../BlackCodher/Unit1&2/BlackCodHer/HTML\ Images/Background_image6.jpg); 
+background-size: contain; 
+background-repeat: no-repeat;
 
-
-
-/*Nav Bar */
-.navbar a  {
-display: inline-flex; 
-flex-direction: row;
-text-decoration: none;
+     
+                /*Nav Bar */
+* {           
+box-sizing: border-box;
+margin: 0;
+padding: 0;
+}
+              
+li,a,button {
 font-family: sans-serif;
-/*align-self: stretch; */
-font-family:sans-serif;
-color:rgb(88, 235, 144);
-font-size: 20px;
-outline-style: double;
+font-weight: 500;
+font-size: 23px;
+color: antiquewhite;
+ }
+            
+header {
+display: flex;
+justify-content: center;
+align-items: center;
+padding: 20px 10% ;
+              }
+.navbar {
+ list-style: none;
+}
+.navbar li {
+ display: inline-block;
+ padding: 50px 20px;
+}
 
-}  
+.navbar li a {
+ transition: all 0.3s ease 0s;
+}
+
+.navbar li a:hover {
+ color: yellowgreen;
+}
 
 
-/*Intro Name Section */
-#hello  {
+            /*Intro Name Section */
+#hello  {   
 font-family:sans-serif;
 color: aliceblue;
 font-size: 35px; 
 text-align: center;
 } 
+#hello:hover {
+color: yellowgreen;
+}
+#hello:hover {
+transition: all 0.3s ease 0s;
+}
 
 #iam {
-  font-family:sans-serif;
-  color: aliceblue;
-  font-size: 45px; 
-  text-align: center;
-  } 
+font-family:sans-serif;
+color: rgb(194, 151, 235);
+font-size: 45px; 
+text-align: center;
+ }
+ #iam:hover {
+ color: yellowgreen;
+ }  
+ #iam:hover {
+  transition: all 0.3s ease 0s;
+  }
+  
+
 
 #natbig {
   font-family:NSimSun;
@@ -38,6 +78,12 @@ text-align: center;
   font-size: 55px; 
   text-align: center;
   }
+  #natbig:hover {
+  color: yellowgreen;
+  }  
+  #natbig:hover {
+  transition: all 0.3 ease 0s;  
+  }  
 
   #creative {
     font-family:NSimSun;
@@ -47,15 +93,16 @@ text-align: center;
 
   #Scroll {
     font-family:sans-serif;
-    color:black;
+    color:antiquewhite;
     font-size: 25px; 
     text-align: center;
+   
   }
 
- /*About Me Section*/
+            /*About Me Section*/
 .about {
   font-family:sans-serif;
-  color: aliceblue;
+  color: black;
   font-size: 25px; 
   text-align: center;
 }
@@ -69,7 +116,7 @@ text-align: center;
 
 h1 { 
   font-family: sans-serif;
-  color: aliceblue;
+  color:antiquewhite;
   font-size: 30px;
   text-align: center;
   } 
@@ -77,13 +124,13 @@ h1 {
 
 h2, h3 { 
 font-family: sans-serif;
-color: aliceblue;
+color: tomato;
 font-size: 25px;
 }
 
 p{
 font-family: sans-serif;
-color: aliceblue;
+color: rgb(201, 155, 95);
 font-size: 25px;
 text-align: center;
 
@@ -91,16 +138,12 @@ text-align: center;
 
 .programmes {
   font-family:consolas;
-  color:aliceblue;
+  color: yellowgreen;
   font-size: 25px;
   text-align: center;
 }
 
-/*Customer Testimonials
-section h2 ul li a {
-  descendant combinator example
-}
-   */
+        /*Customer Testimonials */
 #customer { 
   font-family: sans-serif;
   color: rgb(158, 219, 98);
@@ -109,8 +152,7 @@ section h2 ul li a {
     }
     
         
-/*Contact form */
-
+        /*Contact form */
 .contact {
   color:aliceblue;
 }
@@ -123,7 +165,7 @@ input[type=text], textarea {
   width: 100%; /* Full width */
 }
 
-/*Submit button*/
+        /*Submit button*/
 input[type=submit]:hover {
   background-color: rgb(0, 245, 41);
  } 
@@ -135,3 +177,4 @@ input[type=submit]:hover {
    border-radius: 100px;
    text-decoration: none; 
  }
+
