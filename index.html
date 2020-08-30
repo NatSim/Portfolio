@@ -1,109 +1,86 @@
- <!DOCTYPE html>
- <html lang="en"> <!--the language the webpage is in-->
-  <head> <!--info in head is unseen on the webpage-->
-   <meta charset ="utf-8"> <!--character set for document,binary computer language,helps avoid problems later-->
-   <meta name = "Natasha Simone" content="programming portfolio">
-   
+<!DOCTYPE html>
+<html lang="en"> <!--the language the webpage is in-->
+<head> <!--info in head is unseen on the webpage-->
+  <meta charset ="utf-8"> <!--character set for document,binary computer language,helps avoid problems later-->
+  <meta name = "Natasha Simone" content="programming portfolio">
    <title>NatSim Software Developer</title><!--Title shown at top bartab-->
-     <link rel="stylesheet" href="CSS Style Sheet.css"> <!--CSS Stylesheet linked-->
-  </head>
+    
+   <link rel="stylesheet" href="CSS Style Sheet.css"> <!--CSS Stylesheet linked-->
+</head>
 
-    <body> <!--Body is the parent of header,&grand-parent of nav etc-->
-     <header><!--nav/a are descendants of header, who is parent to them,can include logos/favicons?&authorship details-->
-    
-      <nav>
-         <ul class="navbar"> <!--How to center and spreed out on top-->
-           <li><a href="#index">Home</a></li>
-           <li><a href="#about">About</a></li>
-           <li><a href="#portfolio">Portfolio</a></li>
-           <li><a href="#contact">Contact</a></li>
-         </ul>
-      </nav>
-    
+<body> <!--Body is the parent of header,&grand-parent of nav etc-->
+  <header><!--nav/a are descendants of header, who is parent to them,can include logos/favicons?&authorship details-->
+    <nav>
+      <ul id="navbar"> <!--How to center and spreed out on top-->
+        <li><a href="#about">About</a></li>
+        <li><a href="#portfolio">Portfolio</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+   </nav>   
   </header>
-      
 
-      <main>
-<br></br>
-        <div class="intro-layout"> <!--element seperating or expanding &grouping common content/class reference for css styling-->
-          <div class="hello">
-            <h1 id="hello">Hello</h1> <!--would like each h1 to appear in sequence(JavaScript feature?-->
-          <div class="iam">
-            <h1 id="iam"> I am... 
-          <div class="NatSim">
-            <span id="NatSim"><strong>NatSim</strong> 
-         <div class="creative">
-            <h1>A <b><em id="creative">creative</em></b> software developer</h1><!--i want name to be green color-->  
-         </div>     
-        </div>  
-        
-           
-          
-
-         <p><span id="Scroll">Scroll down to find out more!</p></span><!--button here-->
-          
-        </section>
-<br></br>
-<br></br>
-<br></br>
-<br></br>
-<br></br>
-<br></br>
-<br></br>
-<br></br>
-<br></br>
-<br></br>
-<br></br>
-<br></br>
-<br></br>
-<br></br>
-<br></br>
-<br></br>
-<br></br>
-
-        <div id= "about">
-        <section class="about"> <!--would like to branch out other non-central styling option-->
-           <!--ABOUT ME: h3 and p are descendants of section-->
-            <h2><strong>About me</strong></h2>
-            <p><strong>I am currently training to become a software developer on the <strong id="blackcodhercourse">black codher bootcamp </strong>. I specialize in designing forward-thinking, innovative and unique websites that stand out from the crowd and most importantly convey a business's message clearly.</strong></p>
-
-
-          <div> <!--(non-sem) use as container for element--> 
-            <h2>Meet the face behind the page</h2>
-         
-           <img src="C:\Users\Natasha\Desktop\BlackCodher\Unit1&2\BlackCodHer\HTML Images\IMG_2187 (2).JPG" height="475.2px" width="316.8px" alt="Photo of Natasha"Photo not supported/>
-       
-          </div>
-        </section>
-<br></br>         
-
-        <div id= "portfolio">
-        <section class="programmes"> 
-        <!--PROGRAMME USE :info,would like the percentage style%-->
-          <h2>Programmes</h2> 
-          <ul>
-            <li>HTML5</li>
-            <li>CSS3</li>
-            <li>JavaScript</li>
-          </ul> 
-          </div>
-    </section>
-
-  </main>
-  
-     <section>
-       <div class="customer">
-         <h2>Customer Testimonials</h2> <!--CUSTOMER QUOTES-->
-        <ul><!---Blockquote is citing big sections (q for small sections)from another source-->
-         <li><q><em>I was over the moon with the design of the website. There was zero hassle via consultation and Natasha completly understood the vibe I was going for. Definetly recommend</q></em></li>
-       </ul>
-       <a></a> <!--a is ancor,i would like here to link to webpages I've designed-->
-     </section>
-
+  <main>
+   <section><!--Page Intro Section-->
+    <div id="intro-layout"> <!--element seperating or expanding &grouping common content/class reference for css styling-->   
+     <div id="hello">
+      <h1>Hello</h1> <!--would like each h1 to appear in sequence(JavaScript feature?-->
+     <div id="iam">
+      <h1>I am...</h1> 
+     <div id="NatSim">
+      <strong>NatSim</strong>
+     <div id="creative">
+      <h1>A <b><em>creative</em></b> software developer</h1><!--i want name to be green color-->      
+     <div id="Scroll">                       
+     </div>                      
+   </section>
+   
+   <section id="about"><!--ABOUT ME SECTION-->
+    <div class= "about"> <!--would like to branch out other non-central styling option--><!--(non-sem) use as container for elements and layout/combinators-->
+     <h2><strong>About me</strong></h2><!--ABOUT ME: h3 and p are descendants of section-->
+     <p><strong>
+       I am currently training to become a software developer on the <strong id="blackcodhercourse">black codher bootcamp </strong>. I specialize in designing forward-thinking, innovative and unique websites that stand out from the crowd and most importantly convey a business's message clearly.
+     </strong></p>
+     <img src="C:\Users\Natasha\Desktop\BlackCodher\Unit1&2\BlackCodHer\HTML Images\IMG_2187 (2).JPG" height="475.2px" width="316.8px" alt="Photo of NatSim"Photo not supported/>
      <br></br>
+     <span>Meet the face behind the page</span>
+    </div>
+   </section>    
+   
+   <section id="portfolio"><!--PORTFOLIO WORK SECTION here i.e bookshop(css grids)-->
+    <div class= "portfolio">
+     <h2>Book Shop</h2>
+    </div>  
+   </section>
+
+
+   <section><!--LANGUAGES I USE :info,would like the percentage style%-->
+     <div class="languages">
+      <h2>Programmes</h2> 
+       <ul>
+        <li>HTML5</li>
+        <li>CSS3</li>
+        <li>JavaScript</li>
+       </ul> 
+     </div>
+    </div>
+   </section>
+  </main>
+
   
-      <div id= "contact">
-      <section class="contact"> <!--CONTACT ME: section form-->
+   <section><!--CUSTOMER TESTIMONIALS-->
+    <div class="customer">
+     <h2>Customer Testimonials</h2> 
+      <ul><!---Blockquote is citing big sections (q for small sections)from another source-->
+      <li><em><q>I was over the moon with the design of the website. There was zero hassle via consultation and Natasha completly understood the vibe I was going for. Definetly recommend
+      </q></em></li>
+      </ul>
+      <a></a> <!--a is ancor,i would like here to link to webpages I've designed-->
+   </section>
+
+    
+   <section class="contact"></section><!--CONTACT ME: section form-->
+    <div id= "contact">
+       
        <h3><strong>Contact Me</strong></h3>
         <br><u>Please fill in the form below.</u></br>
         <br></br>
