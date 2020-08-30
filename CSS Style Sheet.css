@@ -1,12 +1,10 @@
 /*@import url ("https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous"); */
                /* section */
 body {          
-/*background-image: url(../BlackCodher/Unit1&2/BlackCodHer/HTML\ Images/Background_image3.jpg); */
 /*background-size: contain; 
 background-repeat: no-repeat; */
 
-     
-               /* NAV BAR/HEADER */ 
+                         /* NAV BAR/HEADER */ 
 
 box-sizing: border-box;
 margin: 0;
@@ -152,6 +150,16 @@ text-align: center;
 .languages,ul,li{
   list-style: none;
 }
+
+         /*Portfolio*/
+.portfolio1{
+  display: inline-flexbox;
+  
+}         
+
+.portfolio2{
+  display: inline;
+  }         
 
         /*CUSTOMER TESTIMONIALS*/
 .customer, ul,li { 
