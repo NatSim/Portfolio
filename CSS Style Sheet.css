@@ -8,7 +8,7 @@ background-repeat: no-repeat; */
 
 box-sizing: border-box;
 margin: 0;
-padding: 15px 20px;
+padding: 20px 20px;
 } 
               
 li,a,button {
@@ -31,7 +31,7 @@ word-spacing: 30px;
 }
 #navbar li {
  display: inline-block;
- padding: 50px 20px;
+ padding: 40px 20px;
 }
 
 #navbar li a {
@@ -63,22 +63,22 @@ position: relative;
   top: 0px;
   right: 0px;
   bottom: 0px;
-  left: 0px;
+  left: 35px;
   opacity: 0.5;
 }
 
 #hello  {   
-font-family:sans-serif;
 color: aliceblue;
 font-size: 35px;
+font-weight: 700;
 text-align: center ;
 position: relative;
 } 
 
 #iam {
-font-family:sans-serif;
 color: aliceblue;
 font-size: 45px; 
+font-weight: bolder;
 position: relative;
 
  }
@@ -87,6 +87,7 @@ position: relative;
  font-family: NSimSun;
  color: rgb(248, 241, 139);
  font-size: 85px;  
+ font-weight: bolder;
  position: relative;
 
 }
@@ -100,12 +101,18 @@ position: relative;
 
 #creative {
   font-family:NSimSun;
+  font-weight: 1000;
   color: rgb(235, 243, 240); 
   position: relative;
 
 }
   em {
     color: rgb(133, 91, 172);
+  }
+
+  h1 {
+    font-family: 'Source Code Pro', monospace;
+    font-size: 80px;
   }
 
   #Scroll {
@@ -131,6 +138,7 @@ h2, h3 {
 font-family: sans-serif;
 color: black;
 font-size: 30px;
+text-align: center;
 }
 
 p{
@@ -152,14 +160,22 @@ text-align: center;
 }
 
          /*Portfolio*/
-.portfolio1{
-  display: inline-flexbox;
-  
-}         
+.portfolio2 {
+   display: flex;
+}
 
-.portfolio2{
-  display: inline;
-  }         
+/*.portfolio2::before {
+  content:"";
+  background-color: #ED6A5E;
+  opacity: 0.5;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  bottom: 80px;
+  left: 10px; */
+
+}
+         
 
         /*CUSTOMER TESTIMONIALS*/
 .customer, ul,li { 
@@ -181,18 +197,27 @@ input[type=text], textarea {
   padding: 12px; /* Some surrounding space */
   resize: vertical; /* Allow users to vertically resize the textarea */
   width: 100%; /* Full width */
+ 
 }
 
         /*SUBMIT BUTTON/FOOTER*/
 input[type=submit]:hover {
-  background-color: rgb(0, 245, 41);
+  background-color: rgba(245, 241, 8, 0.856);
+  margin-bottom: 50px;
  } 
  
  #Externalsites {
    color: rgb(74, 240, 96);
    font-style: oblique;
-   border: 1.5pt solid;
-   border-radius: 100px;
+   border-radius: 25px 25px;
+  
    text-decoration: none; 
+   margin: 100px;
+   text-align: center;
+
+  border: 1px solid LightGrey;
+  padding: 40px 0px;
+  position: relative;
+  width: 50%;
  }
 
