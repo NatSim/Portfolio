@@ -6,7 +6,7 @@
                 
                 box-sizing: border-box;
                 margin: 0;
-                padding: 20px 20px; 
+                padding: 10px 20px; 
                 } 
                               
                 li,a,button {
@@ -18,10 +18,11 @@
                  }
                             
                 header {
+                
                 display: flex;
                 justify-content: center;
                 align-items: center;
-                padding: 20px 10% ;
+                padding: 20px 20px ;
                 word-spacing: 30px;
                               }
                 #navbar {
@@ -52,12 +53,21 @@
                 position: relative;
                 } */
                 
-                #intro-layout {
-                display: flex;
+               #intro-layout {
+                 position:relative; 
+                 width: auto;
+                 display: flex;
+                 align-items: center;
+                 justify-content: center;
+
+               }
+
+                #intro-layout::before {
+                content: "";
                 background-image: url("Background_image3.jpg");
                 background-size: contain;
-                position: relative;
-                padding: 50px;
+                position: absolute;
+                padding: 0px;
                 top: 0px;
                 right: 0px;
                 bottom: 0px;
@@ -115,6 +125,7 @@
                   h1 {
                     font-family: 'Source Code Pro', monospace;
                     font-size: 80px;
+                    position: relative;
                   }
                 
                   #Scroll {
