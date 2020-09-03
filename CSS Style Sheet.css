@@ -1,223 +1,230 @@
 /*@import url ("https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous"); */
                /* section */
-body {          
-/*background-size: contain; 
-background-repeat: no-repeat; */
+               body {  
+                         
+                                         /* NAV BAR/HEADER */ 
+                
+                box-sizing: border-box;
+                margin: 0;
+                padding: 20px 20px; 
+                } 
+                              
+                li,a,button {
+                font-family: sans-serif;
+                font-weight: 500;
+                font-size: 30px;
+                color: teal;
+                text-decoration: none;
+                 }
+                            
+                header {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                padding: 20px 10% ;
+                word-spacing: 30px;
+                              }
+                #navbar {
+                 list-style: none;
+                }
+                #navbar li {
+                 display: inline-block;
+                 padding: 40px 20px;
+                }
+                
+                #navbar li a {
+                 transition: all 0.3s ease 0s;
+                }
+                
+                #navbar li a:hover {
+                 color: yellowgreen;
+                }
+                
+                            /*PAGE INTRO SECTION */
+                /*#intro-layout { */
+                /*max-width: 1300px;
+                background-color:wheat;  
+                margin: 40px auto 0 auto;
+                line-height: 1.65;
+                padding: 50px 50px; */
+                /*display: flex; */
+                /*align-items: center;
+                position: relative;
+                } */
+                
+                #intro-layout {
+                display: flex;
+                background-image: url("Background_image3.jpg");
+                background-size: contain;
+                position: relative;
+                padding: 50px;
+                top: 0px;
+                right: 0px;
+                bottom: 0px;
+                left: 35px;
+                opacity: 0.5;
+                
+                
 
-                         /* NAV BAR/HEADER */ 
+               
+                }
+                
+                #hello  {   
+                color: aliceblue;
+                font-size: 35px;
+                font-weight: 700;
+                text-align: center ;
+                position: relative;
+                } 
+                
+                #iam {
+                color: aliceblue;
+                font-size: 45px; 
+                font-weight: bolder;
+                position: relative;
+                
+                 }
+                
+                #NatSim {
+                 font-family: NSimSun;
+                 color: rgb(248, 241, 139);
+                 font-size: 85px;  
+                 font-weight: bolder;
+                 position: relative;
+                
+                }
+                
+                #NatSim:hover {
+                  color: yellowgreen;
+                }  
+                #NatSim:hover {
+                  transition: all 0.3 ease 0s;  
+                  }  
+                
+                #creative {
+                  font-family:NSimSun;
+                  font-weight: 1000;
+                  color: rgb(235, 243, 240); 
+                  position: relative;
+                
+                }
+                  em {
+                    color: rgb(133, 91, 172);
+                  }
+                
+                  h1 {
+                    font-family: 'Source Code Pro', monospace;
+                    font-size: 80px;
+                  }
+                
+                  #Scroll {
+                    font-family:sans-serif;
+                    color:rgb(196, 231, 66);
+                    font-size: 25px; 
+                  }
+                
+                            /*ABOUT ME SECTION*/
 
-box-sizing: border-box;
-margin: 0;
-padding: 20px 20px;
-} 
-              
-li,a,button {
-font-family: sans-serif;
-font-weight: 500;
-font-size: 30px;
-color: teal;
-text-decoration: none;
- }
-            
-header {
-display: flex;
-justify-content: center;
-align-items: center;
-padding: 20px 10% ;
-word-spacing: 30px;
-              }
-#navbar {
- list-style: none;
-}
-#navbar li {
- display: inline-block;
- padding: 40px 20px;
-}
 
-#navbar li a {
- transition: all 0.3s ease 0s;
-}
-
-#navbar li a:hover {
- color: yellowgreen;
-}
-
-            /*PAGE INTRO SECTION */
-#intro-layout {
-/*max-width: 1300px;
-background-color:wheat;  
-margin: 40px auto 0 auto;
-line-height: 1.65;
-padding: 50px 50px; */
-/*display: flex; */
-align-items: center;
-position: relative;
-}
-
-#intro-layout::before {
-  content: "";
-  background-image: url(../BlackCodher/Unit1&2/BlackCodHer/HTML\ Images/Background_image3.jpg);
-  background-repeat: no-repeat;
-  background-size: contain;
-  position: absolute;
-  top: 0px;
-  right: 0px;
-  bottom: 0px;
-  left: 35px;
-  opacity: 0.5;
-}
-
-#hello  {   
-color: aliceblue;
-font-size: 35px;
-font-weight: 700;
-text-align: center ;
-position: relative;
-} 
-
-#iam {
-color: aliceblue;
-font-size: 45px; 
-font-weight: bolder;
-position: relative;
-
- }
-
-#NatSim {
- font-family: NSimSun;
- color: rgb(248, 241, 139);
- font-size: 85px;  
- font-weight: bolder;
- position: relative;
-
-}
-
-#NatSim:hover {
-  color: yellowgreen;
-}  
-#NatSim:hover {
-  transition: all 0.3 ease 0s;  
-  }  
-
-#creative {
-  font-family:NSimSun;
-  font-weight: 1000;
-  color: rgb(235, 243, 240); 
-  position: relative;
-
-}
-  em {
-    color: rgb(133, 91, 172);
-  }
-
-  h1 {
-    font-family: 'Source Code Pro', monospace;
-    font-size: 80px;
-  }
-
-  #Scroll {
-    font-family:sans-serif;
-    color:rgb(196, 231, 66);
-    font-size: 25px; 
-  }
-
-            /*ABOUT ME SECTION*/
-.about {
-  font-family:sans-serif;
-  color: black;
-  font-size: 25px; 
-  text-align: center;  
-}
-
- #blackcodhercourse {
-    font-family: sans-serif;
-    color: crimson;
-}
-          
-h2, h3 { 
-font-family: sans-serif;
-color: black;
-font-size: 30px;
-text-align: center;
-}
-
-p{
-font-family: sans-serif;
-color:black;
-font-size: 25px;
-text-align: center;
-}
-          /*LANGUAGES I USE*/
-
-.languages {
-  font-family:consolas;
-  color: black;
-  font-size: 25px;
-  text-align: center;
-}
-.languages,ul,li{
-  list-style: none;
-}
-
-         /*Portfolio*/
-.portfolio2 {
-   display: flex;
-}
-
-/*.portfolio2::before {
-  content:"";
-  background-color: #ED6A5E;
-  opacity: 0.5;
-  position: absolute;
-  top: 10px;
-  right: 10px;
-  bottom: 80px;
-  left: 10px; */
-
-}
-         
-
-        /*CUSTOMER TESTIMONIALS*/
-.customer, ul,li { 
-  font-family: sans-serif;
-  color:black;
-  font-size: 20px;
-  text-align: center;
-    }
-    
-        
-        /*CONTACT ME*/
-.contact {
-  color: black;
-}
-input[type=text], textarea {
-  border-radius: 4px; /* Rounded borders */
-  box-sizing: border-box; /* Make sure that things stay in place */
-  margin: 6px 0px 16px 0px; /* Top right bottom left margin */
-  padding: 12px; /* Some surrounding space */
-  resize: vertical; /* Allow users to vertically resize the textarea */
-  width: 100%; /* Full width */
- 
-}
-
-        /*SUBMIT BUTTON/FOOTER*/
-input[type=submit]:hover {
-  background-color: rgba(245, 241, 8, 0.856);
-  margin-bottom: 50px;
- } 
- 
- #Externalsites {
-   color: rgb(74, 240, 96);
-   font-style: oblique;
-   border-radius: 25px 25px;
-  
-   text-decoration: none; 
-   margin: 100px;
-   text-align: center;
-
-  border: 1px solid LightGrey;
-  padding: 40px 0px;
-  position: relative;
-  width: 50%;
- }
-
+                #about{
+                  display: flex;
+                }            
+                .about {
+                  font-family:sans-serif;
+                  color: black;
+                  font-size: 25px; 
+                  text-align: center;  
+                }
+                
+                 #blackcodhercourse {
+                    font-family: sans-serif;
+                    color: crimson;
+                }
+                          
+                h2, h3 { 
+                font-family: sans-serif;
+                color: black;
+                font-size: 30px;
+                text-align: center;
+                }
+                
+                p{
+                font-family: sans-serif;
+                color:black;
+                font-size: 25px;
+                text-align: center;
+                }
+                          /*LANGUAGES I USE*/
+                
+                .languages {
+                  font-family:consolas;
+                  color: black;
+                  font-size: 25px;
+                  text-align: center;
+                }
+                .languages,ul,li{
+                  list-style: none;
+                }
+                
+                         /*Portfolio*/
+                .portfolio2 {
+                   display: flex;
+                }
+                
+                /*.portfolio2::before {
+                  content:"";
+                  background-color: #ED6A5E;
+                  opacity: 0.5;
+                  position: absolute;
+                  top: 10px;
+                  right: 10px;
+                  bottom: 80px;
+                  left: 10px; */
+                
+                
+                         
+                
+                        /*CUSTOMER TESTIMONIALS*/
+                .customer, ul,li { 
+                  font-family: sans-serif;
+                  color:black;
+                  font-size: 20px;
+                  text-align: center;
+                    }
+                    
+                        
+                        /*CONTACT ME*/
+                .contact {
+                  color: black;
+                }
+                input[type=text], textarea {
+                  border-radius: 4px; /* Rounded borders */
+                  box-sizing: border-box; /* Make sure that things stay in place */
+                  margin: 6px 0px 16px 0px; /* Top right bottom left margin */
+                  padding: 12px; /* Some surrounding space */
+                  resize: vertical; /* Allow users to vertically resize the textarea */
+                  width: 100%; /* Full width */
+                 
+                }
+                
+                        /*SUBMIT BUTTON/FOOTER*/
+                input[type=submit]:hover {
+                  background-color: rgba(245, 241, 8, 0.856);
+                  margin-bottom: 50px;
+                 } 
+                 
+                 #Externalsites {
+                   color: rgb(74, 240, 96);
+                   font-style: oblique;
+                   border-radius: 25px 25px;
+                  
+                   text-decoration: none; 
+                   margin: 100px;
+                   text-align: center;
+                
+                  border: 1px solid LightGrey;
+                  padding: 40px 0px;
+                  position: relative;
+                  width: 50%;
+                 }
+                
