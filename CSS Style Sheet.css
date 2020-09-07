@@ -127,48 +127,49 @@ font-size: 25px;
 
 
 #about{
-                  display: flex;
-                }            
-                .about {
-                  font-family:sans-serif;
-                  color: black;
-                  font-size: 25px; 
-                  text-align: center;  
-                }
+display: flex;
+ }            
+
+.about {
+ font-family:sans-serif;
+ color: black;
+ font-size: 25px; 
+ text-align: center;  
+ }
                 
-                 #blackcodhercourse {
-                    font-family: sans-serif;
-                    color: crimson;
+ #blackcodhercourse {
+  font-family: sans-serif;
+  color: crimson;
                 }
                           
-                h2, h3 { 
-                font-family: sans-serif;
-                color: black;
-                font-size: 30px;
-                text-align: center;
+  h2, h3 { 
+   font-family: sans-serif;
+   color: black;
+   font-size: 30px;
+  text-align: center;
                 }
                 
-                p{
-                font-family: sans-serif;
-                color:black;
-                font-size: 25px;
-                text-align: center;
-                }
+   p{
+   font-family: sans-serif;
+   color:black;
+   font-size: 25px;
+   text-align: center;
+    }
                           /*LANGUAGES I USE*/
                 
-                .languages {
-                  font-family:consolas;
-                  color: black;
-                  font-size: 25px;
-                  text-align: center;
-                }
-                .languages,ul,li{
-                  list-style: none;
+   .languages {
+  font-family:consolas;
+  color: black;
+  font-size: 25px;
+  text-align: center;
+     }
+  .languages,ul,li{
+   list-style: none;
                 }
                 
                          /*Portfolio*/
-                .portfolio2 {
-                   display: flex;
+  .portfolio2 {
+   display: flex;
                 }
                 
                 /*.portfolio2::before {
@@ -214,13 +215,29 @@ font-size: 25px;
                  } 
                 
                  
-                
-#icons_container::after{ 
+footer {
 position:relative; 
 width: auto;
-background-color: cornflowerblue; 
-background-size: cover;
-opacity: 0.5;
+
+}               
+
+#icons_container{
+content:"";
+background-color: cornflowerblue;  /*Not appearing*/
+position: absolute;            
+padding: 0px;
+top: 0px;
+right: 0px;
+bottom: 0px;
+left: 0px;
+}
+
+.icon-icons {
+  display: flex;   /*spacing ?*/
+
+}
+
+
 }                
  
 
