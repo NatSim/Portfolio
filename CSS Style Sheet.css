@@ -1,143 +1,132 @@
 /*@import url ("https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous"); */
                /* section */
-               body {  
+  body {  
                          
-                                         /* NAV BAR/HEADER */ 
-                
-                box-sizing: border-box;
-                margin: 0;
-                padding: 10px 20px; 
-                } 
-                              
-                li,a,button {
-                font-family: sans-serif;
-                font-weight: 500;
-                font-size: 30px;
-                color: teal;
-                text-decoration: none;
-                 }
+                                         /* NAV BAR/HEADER */               
+  box-sizing: border-box;
+  margin: 20px 20px; /*around whole of document*/
+  padding: 10px 20px; 
+  }
+
+  li,a,button {
+  font-family: sans-serif;
+  font-weight: 500;
+  font-size: 30px;
+  color: teal;
+  text-decoration: none;
+  }
                             
-                header {
+  header {
+         
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ padding: 20px 20px ;
+ word-spacing: 30px;
+}
+
+  #navbar {
+  list-style: none;
+  }              
                 
-                display: flex;
-                justify-content: center;
-                align-items: center;
-                padding: 20px 20px ;
-                word-spacing: 30px;
-                              }
-                #navbar {
-                 list-style: none;
-                }
-                #navbar li {
-                 display: inline-block;
-                 padding: 40px 20px;
-                }
-                
-                #navbar li a {
-                 transition: all 0.3s ease 0s;
+  #navbar li {
+  display: inline-block;
+  padding: 40px 20px;
                 }
                 
-                #navbar li a:hover {
-                 color: yellowgreen;
+  #navbar li a {
+  transition: all 0.3s ease 0s;
                 }
                 
+ #navbar li a:hover {
+color: yellowgreen;
+                }
+  
                             /*PAGE INTRO SECTION */
-                /*#intro-layout { */
-                /*max-width: 1300px;
-                background-color:wheat;  
-                margin: 40px auto 0 auto;
-                line-height: 1.65;
-                padding: 50px 50px; */
-                /*display: flex; */
-                /*align-items: center;
-                position: relative;
-                } */
                 
-               #intro-layout {
-                 position:relative; 
-                 width: auto;
-                 display: flex;
-                 align-items: center;
-                 justify-content: center;
+#intro-layout {
+position:relative; 
+width: auto;
+display: flex;
+align-items: center;
+justify-content: center;
 
-               }
+}
 
-                #intro-layout::before {
-                content: "";
-                background-image: url("Background_image3.jpg");
-                background-size: contain;
-                position: absolute;
-                padding: 0px;
-                top: 0px;
-                right: 0px;
-                bottom: 0px;
-                left: 35px;
-                opacity: 0.5;
-                
-                
+#intro-layout::before {
+content: "";
+background-image: url("Background_image3.jpg");
+background-size: cover;
+background-repeat: no-repeat;
+position: absolute;
+padding: 0px;
+top: 0px;
+right: 0px;
+bottom: 0px;
+left: 0px;
+opacity: 0.5;
+}
 
-               
-                }
+#hello  {   
+color: aliceblue;
+font-size: 35px;
+font-weight: 700;
+text-align: center ;
+position: relative;
+                }                                 
+                                
+#iam {
+color: aliceblue;
+font-size: 45px; 
+font-weight: bolder;
+position: relative;
                 
-                #hello  {   
-                color: aliceblue;
-                font-size: 35px;
-                font-weight: 700;
-                text-align: center ;
-                position: relative;
-                } 
+                 }                                            
+#NatSim {
+ font-family: NSimSun;
+ color: rgb(248, 241, 139);
+ font-size: 85px;  
+ font-weight: bolder;
+  position: relative;
                 
-                #iam {
-                color: aliceblue;
-                font-size: 45px; 
-                font-weight: bolder;
-                position: relative;
-                
-                 }
-                
-                #NatSim {
-                 font-family: NSimSun;
-                 color: rgb(248, 241, 139);
-                 font-size: 85px;  
-                 font-weight: bolder;
-                 position: relative;
-                
-                }
-                
-                #NatSim:hover {
-                  color: yellowgreen;
-                }  
-                #NatSim:hover {
-                  transition: all 0.3 ease 0s;  
+}                               
+                                                                
+                                
+#NatSim:hover {
+color: yellowgreen;
+                }                                    
+
+#NatSim:hover {
+transition: all 0.3 ease 0s;  
                   }  
+                                
+ #creative {
+  font-family:NSimSun;
+  font-weight: 1000;
+  color: rgb(235, 243, 240); 
+  position: relative;
                 
-                #creative {
-                  font-family:NSimSun;
-                  font-weight: 1000;
-                  color: rgb(235, 243, 240); 
-                  position: relative;
+                }                                                                              
+ em {
+    color: rgb(133, 91, 172);
+                  }                                 
                 
-                }
-                  em {
-                    color: rgb(133, 91, 172);
-                  }
+h1 {
+font-family: 'Source Code Pro', monospace;
+font-size: 80px;
+position: relative;
+  }
                 
-                  h1 {
-                    font-family: 'Source Code Pro', monospace;
-                    font-size: 80px;
-                    position: relative;
-                  }
-                
-                  #Scroll {
-                    font-family:sans-serif;
-                    color:rgb(196, 231, 66);
-                    font-size: 25px; 
-                  }
+#Scroll {
+font-family:sans-serif;
+color:rgb(196, 231, 66);
+font-size: 25px; 
+      }
                 
                             /*ABOUT ME SECTION*/
 
 
-                #about{
+#about{
                   display: flex;
                 }            
                 .about {
@@ -223,19 +212,16 @@
                   background-color: rgba(245, 241, 8, 0.856);
                   margin-bottom: 50px;
                  } 
+                
                  
-                 #Externalsites {
-                   color: rgb(74, 240, 96);
-                   font-style: oblique;
-                   border-radius: 25px 25px;
-                  
-                   text-decoration: none; 
-                   margin: 100px;
-                   text-align: center;
                 
-                  border: 1px solid LightGrey;
-                  padding: 40px 0px;
-                  position: relative;
-                  width: 50%;
-                 }
-                
+#icons_container::after{ 
+position:relative; 
+width: auto;
+background-color: cornflowerblue; 
+background-size: cover;
+opacity: 0.5;
+}                
+ 
+
+                                             
