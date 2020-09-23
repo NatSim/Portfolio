@@ -11,32 +11,32 @@
   </head>
 
 <body> <!--Body is the parent of header,&grand-parent of nav etc-->
-  <header><!--nav/a are descendants of header, who is parent to them,can include logos/favicons?&authorship details-->
-    <nav>
-      <ul id="navbar"> <!--How to center and spreed out on top-->
-        <li><a href="#about">About</a></li>
-        <li><a href="#portfolio">Portfolio</a></li>
-        <li><a href="#contact">Contact</a></li>
-        <li><a href="C:\Users\Natasha\Desktop\rootfolder\blogsection.html">Blog</a></li>
-      </ul>
-   </nav>   
-  </header>
+<header><!--nav/a are descendants of header, who is parent to them,can include logos/favicons?&authorship details-->
+  <nav>
+    <ul id="navbar"> <!--How to center and spreed out on top-->
+      <li><a href="#about">About</a></li>
+      <li><a href="#portfolio">Portfolio</a></li>
+      <li><a href="#contact">Contact</a></li>
+      <li><a href=".\NatSim(Website)\blogsection.html">Blog</a></li>
+    </ul>
+  </nav>   
+</header>
 
-  <main>
-   <section id="parent"><!--Page Intro Section-->
+<main>
+  <section id="parent"><!--Page Intro Section-->
     <div id="intro-layout"> <!--element seperating or expanding &grouping common content/class reference for css styling-->   
-     <div id="hello">
+    <div id="hello">
       <h1>Hello</h1> <!--would like each h1 to appear in sequence(JavaScript feature?-->
-     <div id="iam">
+    <div id="iam">
       <h1>I am...</h1> 
-     <div id="NatSim">
+    <div id="NatSim">
       <strong>NatSim</strong>
-     <div id="creative">
+    <div id="creative">
       <h1>A <b><em>creative</em></b> software developer</h1><!--i want name to be green color-->      
-     <div id="Scroll">                       
-     </div>
-     </div>                     
-   </section>
+    <div id="Scroll">                       
+    </div>
+    </div>                     
+  </section>
    
    <section id="about"><!--ABOUT ME SECTION-->
     <div class= "about"> <!--would like to branch out other non-central styling option--><!--(non-sem) use as container for elements and layout/combinators-->
@@ -44,7 +44,7 @@
      <p><strong>
        I am currently training to become a Front-end Software Developer on the <strong id="blackcodhercourse">black codher bootcamp </strong>. I specialize in designing forward-thinking, innovative and unique websites that stand out from the crowd and most importantly convey a business's message clearly.
      </strong></p>
-     <img src="C:\Users\Natasha\Desktop\rootfolder\HTMLImages\IMG_2187 (2).JPG" height="475.2px" width="316.8px" alt="Photo of NatSim"Image not supported/>
+     <img src="C:\Users\Natasha\Desktop\rootfolder\NatSim(Website)\HTMLImages\IMG_2187 (2).JPG" height="475.2px" width="316.8px" alt="Photo of NatSim"Image not supported/>
      <br></br>
      <span><em>Meet the face behind the page</em></span>
     </div>
@@ -54,12 +54,12 @@
    <br>
    <br>
    <section id="portfolio"><!--PORTFOLIO WORK SECTION here i.e bookshop(css grids)-->
-    <div class= "portfolio2">
-     <img src="C:\Users\Natasha\Desktop\rootfolder\HTMLImages\LeWagonWorkshop.png" height="205.6px" width="377.6px" alt="Le Wagon Zoom Workshop"Image not supported/>
-     <h2>My Work-Example 1</h2> 
-    <div class="porfolio2">
-     <img src="C:\Users\Natasha\Desktop\rootfolder\HTMLImages\LeWagonWorkshop1.png" height="258.8px" width="372.4px" alt="Le Wagon Zoom Workshop"Image not supported/>
-     <h2>My Work-Example2</h2>
+    <div class= "bookshop
+     <href="" height="205.6px" width="377.6px" alt="bookshop website"Image not supported ></a>
+     <h2>Book Shop Website</h2> 
+    <div class="porfolio">
+     <a href="http://127.0.0.1:5501/quiz2.html"target="_blank" alt="Quiz webpage"Image not supported></a>
+     <h2>Quiz Webpage</h2>
     </div>
     </div>
    </section>
@@ -82,59 +82,61 @@
   <br>
   <br>
 
-   <section><!--CUSTOMER TESTIMONIALS-->
+  <section><!--CUSTOMER TESTIMONIALS-->
     <div class="customer">
-     <h2>Customer Testimonials</h2> 
-      <ul><!---Blockquote is citing big sections (q for small sections)from another source-->
-      <li><em><q>I was over the moon with the design of the website. There was zero hassle via consultation and Natasha completly understood the vibe I was going for. Definetly recommend
-      </q></em></li>
-      </ul>
-      <a></a> <!--a is ancor,i would like here to link to webpages I've designed-->
-   </section>
+      <h2>Customer Testimonials</h2> 
+        <ul><!---Blockquote is citing big sections (q for small sections)from another source-->
+          <li><em><q>I was over the moon with the design of the website. There was zero hassle via consultation and Natasha completly understood the vibe I was going for. Definetly recommend
+          </q></em></li>
+        </ul>
+      <a></a> <!--a is ancor,i would like here to link to webpages I've designed i.e NTW App-->
+  </section>
 
     
-   <section class="contact"></section><!--CONTACT ME: section form-->
-    <div id= "contact">
-       
+  <section class="contact"></section><!--CONTACT ME: section form-->
+     <div id= "contact">
        <h3><strong>Contact Me</strong></h3>
-        <br>
-        <mark>Email:natsimbig@gmail.com</mark>  
-        </br>
-        <br>or</br>
-        <br><u>Please fill in the form below.</u></br>
-        <br></br>
+       </br>
+       <mark>Email:natsimbig@gmail.com</mark>  
+       </br>
+       </br>
+       <br><u>Please fill in the form below.</u></br>
+       </br>
       <!--insert button here "book free consultation now"-->
   
-          <form action="action_page.php"></form>
+    <form action="action_page.php"></form>
   
-          <label for="name">Name</label>
-          <input type="text" id="name" name="name" placeholder="Your name">
-          <label for="email"email>Email</label>
-          <input type="text" id="email" email="email" placeholder="Your email"> 
+    <label for="name">Name</label>
+    <input type="text" id="name" name="name" placeholder="Your name">
+    <label for="email"email>Email</label>
+    <input type="text" id="email" email="email" placeholder="Your email"> 
           
-          <label for="subject" name="subject">
-          <br>Subject<br></label><textarea id=" subject" name="subject" placeholder="Would you like a consultation!"
-          style ="height:250px" style = "widows:250px"> 
-          </textarea></br><!--would like width of box larger-->
-          <input type="submit" value='Submit'>
+    <label for="subject" name="subject">
+    <br>Subject<br>
+    </label>
+    <textarea id=" subject" name="subject" placeholder="Would you like a consultation!"
+    style ="height:250px" style = "widows:250px"> 
+    </textarea></br><!--would like width of box larger-->
+    <input type="submit" value='Submit'>
+  </section>
 
-      </section>
-
-       <br></br>
-       <footer>
-            <div id="icons_container">
-        <div class="icon-icons">
-          <a href="https://www.linkedin.com/in/natasha-simone-14310364/"
-           target="_blank" alt="link to Natasha LinkedIn Profile"><img src="linkedin.png" height =" 51.2" width = "51.2" alt="linkedin logo" Image not supported) > 
-          </a> <!--Anchor to Linkedin site and icon here-->
-        <div class="icon-icons">
-          <a href="https://github.com/NatSim"
-           target="_blank" alt="link to Natasha Github Profile"><img src="github-sign.png" height =" 51.2" width = "51.2" alt="github logo" Image not supported)>
-          </a> 
-        </div> 
-        </div>  
-        </div>   
-      </section>
-     </footer>
-    </body>
- </html>
+  </br>
+  <footer>
+    <div id="icons_container">
+    <div class="icon-icons">
+      <a href="https://www.linkedin.com/in/natasha-simone-14310364/"
+         target="_blank" alt="link to Natasha LinkedIn Profile">
+      <img src="./HTMLImages/linkedin.png" height =" 51.2" width = "51.2" alt="linkedin logo" Image not supported) > 
+      </a> <!--Anchor to Linkedin site and icon here-->
+    <div class="icon-icons">
+      <a href="https://github.com/NatSim"
+         target="_blank" alt="link to Natasha Github Profile">
+    <img src="./HTMLImages\github-sign.png" height =" 51.2" width = "51.2" alt="github logo" Image not supported)>
+      </a> 
+    </div> 
+    </div>  
+    </div>   
+  </section>
+  </footer>
+</body>
+</html>
