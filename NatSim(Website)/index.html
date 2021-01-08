@@ -23,38 +23,65 @@
 </header>
 
 <main>
-  <section id="parent"><!--Page Intro Section-->
+  <!--Page Intro Section-->
+  <section id="parent">
     <div id="intro-layout"> <!--element seperating or expanding &grouping common content/class reference for css styling-->   
     <div id="hello">
-      <h1>Welcome...</h1> <!--would like each h1 to appear in sequence JavaScript feature?-->
+      <h1>Welcome...</h1> <!--would like each h1 to appear in sequence JavaScript state feature?-->
     <div id="iam">
-      <h1> I am Natasha Simone </h1> 
-    <div id="NatSim">
+      <h1> I am<span id="natsim">Natasha Simone</span></h1> 
+    <div id="creative2">
       <strong> a creative software engineer...</strong>
-    <div id="creative">
-      <h2><i>scroll down</i></h2><!--i want name to be green color-->      
-    <div id="Scroll">                       
+    <div>
+      <span id="scroll" >scroll down</span>    
+    </div >                       
     </div>
-    </div>                     
+    </div> 
+    </div>                    
   </section>
-   
-   <section id="about"><!--ABOUT ME SECTION-->
-    <div class= "about"> <!--would like to branch out other non-central styling option--><!--(non-sem) use as container for elements and layout/combinators-->
-     <h2><strong>About me</strong></h2><!--ABOUT ME: h3 and p are descendants of section-->
-     <p><strong>
-       I am currently training to become a Full Stack Software Engineer on the <strong id="blackcodhercourse">Black Codher Bootcamp </strong>. I specialize in designing forward-thinking, innovative and unique websites that stand out from the crowd and most importantly convey your business's message clearly.
-     </strong></p>
-     <img src="HTMLImages\IMG_2187 (2).JPG" height="475.2px" width="316.8px" alt="Photo of NatSim"Image not supported/>
-     <br></br>
-     <span><em>Meet the face behind the page</em></span>
-    </div>
-   </section> 
+
+<!-- Slideshow container -->
+<div class="slideshow-container">
+
+  <!-- Full-width images with number and caption text -->
+  <div class="mySlides fade">
+    <div class="numbertext">1 / 3</div>
+    <img src="HTMLImages\GoTellTheBees.jpg" style="width:100%">
+    <div class="text">Figma Design for National Theatre Wales Mobile App Project</div>
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">2 / 3</div>
+    <img src="HTMLImages\quiz.jpg" style="width:100%">
+    <div class="text">Online Quiz using HTML/CSS & JavaScript</div>
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">3 / 3</div>
+    <img src="HTMLImages\bookstore.jpg" style="width:100%">
+    <div class="text">Online BookStore using REACT</div>
+  </div>
+
+  <!-- Next and previous buttons -->
+  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+  <a class="next" onclick="plusSlides(1)">&#10095;</a>
+</div>
+<br>
+
+<!-- The dots/circles -->
+<div style="text-align:center">
+  <span class="dot" onclick="currentSlide(1)"></span>
+  <span class="dot" onclick="currentSlide(2)"></span>
+  <span class="dot" onclick="currentSlide(3)"></span>
+</div>
+
+  
    
    
    <br>
    <br>
    <section id="portfolio"><!--PORTFOLIO WORK SECTION here i.e bookshop(css grids)-->
-    <div class= "bookshop
+    <div class= "bookshop">
      <href="" height="205.6px" width="377.6px" alt="bookshop website"Image not supported ></a>
      <h2>Book Shop Website</h2> 
     <div class="porfolio">
@@ -83,6 +110,18 @@
 
   <br>
   <br>
+
+  <section id="about"><!--ABOUT ME SECTION-->
+    <div class= "about"> <!--would like to branch out other non-central styling option--><!--(non-sem) use as container for elements and layout/combinators-->
+     <h2><strong>About me</strong></h2><!--ABOUT ME: h3 and p are descendants of section-->
+     <p><strong>
+       I am currently training to become a Full Stack Software Engineer on the <strong id="blackcodhercourse">Black Codher Bootcamp </strong>. I specialize in designing forward-thinking, innovative and unique websites that stand out from the crowd and most importantly convey your business's message clearly.
+     </strong></p>
+     <img src="HTMLImages\IMG_2187 (2).JPG" height="475.2px" width="316.8px" alt="Photo of NatSim"Image not supported/>
+     <br></br>
+     <span><em>Meet the face behind the page</em></span>
+    </div>
+   </section> 
 
   <section><!--CUSTOMER TESTIMONIALS-->
     <div class="customer">
@@ -140,5 +179,36 @@
     </div>   
   </section>
   </footer>
+  <script>var slideIndex = 1;
+    showSlides(slideIndex);
+    
+    function plusSlides(n) {
+      showSlides((slideIndex += n));
+    }
+    
+    function currentSlide(n) {
+      showSlides((slideIndex = n));
+    }
+    
+    function showSlides(n) {
+      var i;
+      var slides = document.getElementsByClassName("mySlides");
+      var dots = document.getElementsByClassName("dot");
+      if (n > slides.length) {
+        slideIndex = 1;
+      }
+      if (n < 1) {
+        slideIndex = slides.length;
+      }
+      for (i = 0; i < slides.length; i++) {
+        slides[i].style.display = "none";
+      }
+      for (i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace(" active", "");
+      }
+      slides[slideIndex - 1].style.display = "block";
+      dots[slideIndex - 1].className += " active";
+    }
+    </script>
 </body>
 </html>
