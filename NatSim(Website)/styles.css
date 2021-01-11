@@ -4,7 +4,8 @@ body {
   /* NAV BAR/HEADER */
   box-sizing: border-box;
   margin: 0px 0px; /*around whole of document*/
-  padding: 0px 0px;
+
+  padding: 75px;
 }
 
 li,
@@ -52,20 +53,6 @@ header {
   justify-content: center;
 }
 
-/* #intro-layout::before {
-  content: "";
-  background-image: url("Background_image3.jpg");
-  background-size: cover;
-  background-repeat: no-repeat;
-  position: absolute;
-  padding: 0px;
-  top: 0px;
-  right: 0px;
-  bottom: 0px;
-  left: 0px;
-  opacity: 0.5;
-} */
-
 #hello {
   color: aliceblue;
   font-size: 35px;
@@ -88,29 +75,37 @@ header {
   font-family: "Varela Round", sans-serif;
 }
 
-#creative2:hover {
-  color: #f26ca7;
+/* Page intro transition on creative software developer*/
+
+#creative2 {
+  animation: colorChange2 20s;
+  color: #35d098;
 }
 
-#creative2:hover {
-  transition: all 0.1 ease 0;
+@keyframes colorChange2 {
+  from {
+    color: #35d098;
+  }
+  to {
+    color: #cbff4d;
+  }
 }
 
+/**Page intro transition on name*/
 #natsim {
-  color: #cbff4d;
-}
-
-#natsim:hover {
+  animation: colorChange 10s;
   color: #f564a9;
-  transition: all 0.1 ease 0;
 }
 
-/* #creative {
-  font-family: NSimSun;
-  font-weight: 1000;
-  color: rgb(56, 155, 119);
-  position: relative;
-} */
+@keyframes colorChange {
+  from {
+    color: #cbff4d;
+  }
+  to {
+    color: #f564a9;
+  }
+}
+
 #scroll {
   padding-bottom: 30px;
   margin-bottom: 20px;
@@ -132,6 +127,23 @@ h1 {
   color: rgb(196, 231, 66);
   font-size: 25px;
   padding-top: 30px;
+}
+
+/*Page Intro-Transition*/
+
+.intro-container {
+  animation: transitionIn 2.5s;
+}
+
+@keyframes transitionIn {
+  from {
+    opacity: 0;
+    transform: rotateX(-10deg);
+  }
+  to {
+    opacity: 1;
+    transform: rotateX(0);
+  }
 }
 
 /*ABOUT ME SECTION*/
@@ -235,9 +247,8 @@ footer {
 
 #icons_container {
   content: "";
-  background-color: cornflowerblue; /*Not appearing*/
-  position: absolute;
-  padding: 0px;
+  display: flex;
+
   top: 0px;
   right: 0px;
   bottom: 0px;
@@ -245,7 +256,7 @@ footer {
 }
 
 .icon-icons {
-  display: flex; /*spacing ?*/
+  padding: 5px;
 }
 
 * {
