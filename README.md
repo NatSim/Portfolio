@@ -3,12 +3,12 @@ A working progress portfolio which demonstrates a wide range of technologies use
 
 Any Feedback/tips are welcomed!
 
-Prerequisites
+**Prerequisites**
 Before you begin, ensure you have met the following requirements:
 
 You have basic HTML/CSS understanding.
 
-Contact
+**Contact**
 If you want to contact me you can reach me at Natsimbig@gmail.com.
 
 Happy Coding😉!
