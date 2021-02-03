@@ -4,13 +4,13 @@ Project Name is **Natasha Simone Portfolio** and is a working progress portfolio
 
 Any Feedback/tips are welcomed!
 
-**Prerequisites**
+<h2>Prerequisites</h2>
 
 Before you begin, ensure you have met the following requirements:
 
 You have basic HTML/CSS understanding.
 
-**Contact**
+<h3>Contact</h3>
 
 If you want to contact me you can reach me at Natsimbig@gmail.com.
 
