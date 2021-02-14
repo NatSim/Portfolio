@@ -4,8 +4,8 @@ body {
   /* NAV BAR/HEADER */
   box-sizing: border-box;
   margin: 0px 0px; /*around whole of document*/
-
-  padding: 75px;
+  font-family: hero-new, sans-serif;
+  padding: 50px;
 }
 
 li,
@@ -13,7 +13,7 @@ a,
 button {
   font-family: sans-serif;
   font-weight: 500;
-  font-size: 30px;
+  font-size: 20px;
   color: #cbff4d;
   text-decoration: none;
 }
@@ -22,7 +22,7 @@ header {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 20px 20px;
+
   word-spacing: 30px;
 }
 
@@ -79,7 +79,6 @@ header {
 
 #creative2 {
   animation: colorChange2 20s;
-  color: #35d098;
 }
 
 @keyframes colorChange2 {
