@@ -65,8 +65,18 @@ header {
 #hello {
   color: #0f0e0e;
   font-size: 35px;
-  text-align: center;
+  text-align: left;
   position: relative;
+  animation: adjustIntroLayout 15s;
+}
+
+@keyframes adjustIntroLayout {
+  from {
+    text-align: center;
+  }
+  to {
+    text-align: left;
+  }
 }
 
 #iam {
