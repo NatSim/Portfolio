@@ -93,21 +93,6 @@ header {
   font-family: "Varela Round", sans-serif;
 }
 
-/* Page intro transition on creative software developer*/
-
-#creative2 {
-  animation: colorChange2 20s;
-}
-
-@keyframes colorChange2 {
-  from {
-    color: #0f0e0e;
-  }
-  to {
-    color: #0f0e0e;
-  }
-}
-
 /**Page intro transition on name*/
 #natsim {
   animation: transitionIn 20s;
@@ -172,7 +157,7 @@ h3 {
   font-family: sans-serif;
   color: black;
   font-size: 30px;
-  text-align: center;
+  text-align: left;
 }
 
 p {
