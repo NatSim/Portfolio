@@ -171,8 +171,17 @@ p {
   font-size: 25px;
   text-align: center;
 }
+/*ABOUT SECTION*/
+.about {
+  display: flex;
+  align-items: center;
+  padding: inherit;
+}
 
-/*LANGUAGES I USE*/
+.about-text {
+  padding-left: 10px;
+}
+/*Technologies I USE*/
 
 .languages {
   font-family: consolas;
@@ -180,14 +189,11 @@ p {
   font-size: 25px;
   text-align: center;
 }
-.languages,
-ul,
-li {
+.languages ul li {
   list-style: none;
+  padding: inherit;
 }
-
-/*Portfolio*/
-.portfolio2 {
+.language-list {
   display: flex;
 }
 
