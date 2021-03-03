@@ -1,11 +1,19 @@
 /*@import url ("https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous"); */
 /* section */
 body {
-  /* NAV BAR/HEADER */
   box-sizing: border-box;
   margin: 0px 0px; /*around whole of document*/
   font-family: hero-new, sans-serif;
-  padding: 50px;
+  max-width: 100%;
+}
+
+/* NAV BAR/HEADER */
+
+main,
+section,
+footer {
+  padding: 20px 50px 70px 50px;
+  max-width: 100%;
 }
 
 li,
@@ -369,4 +377,9 @@ footer {
 /* Image carousel text*/
 .text2 {
   color: black;
+}
+
+.copyright {
+  text-align: center;
+  font-family: system-ui;
 }

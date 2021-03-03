@@ -32,22 +32,22 @@
       <h1> I am<span id="natsim">Natasha Simone</span></h1> 
     <div id="creative2">
       <strong> a creative software developer...</strong>
-    <div>
-      <span id="scroll" >scroll down</span>    
-    </div >                       
+                      
     </div>
     </div> 
     </div>                    
   </section>
 
 <!-- Slideshow container -->
+<section id="portfolio"><!--PORTFOLIO WORK SECTION here i.e bookshop(css grids)-->
+<h2>Projects</h2>
 <div class="slideshow-container">
 
   <!-- Full-width images with number and caption text -->
   <div class="mySlides fade">
     <div class="numbertext">1 / 4</div>
     <img src="HTMLImages\GoTellTheBees.jpg" style="width:100%">
-    <div class="text2">Figma Design for National Theatre Wales Mobile App Project</div>
+    <div class="text2">Figma Design for National Theatre Wales Responsive Web App Project</div>
   </div>
 
   <div class="mySlides fade">
@@ -58,13 +58,14 @@
 
   <div class="mySlides fade">
     <div class="numbertext">3 / 4</div>
-    <img src="HTMLImages\quiz.png" style="width:100%">
+    <a href="https://blissful-allen-1ecb3d.netlify.app/quiz.html"target="_blank" alt="Quiz webpage" Image not supported><img src="HTMLImages\quiz.png" style="width:100%" ></a>
+    
     <div class="text2">Online Quiz using HTML/CSS & JavaScript</div>
   </div>
 
   <div class="mySlides fade">
     <div class="numbertext">4 / 4</div>
-    <img src="HTMLImages\bookcase.png" style="width:100%">
+    <a href="https://602c32518bf80c010e47f5ef--agitated-swartz-a0b1f0.netlify.app/"target="_blank" alt="bookcase site" Image not supported>Online Bookcase<img src="HTMLImages\bookcase.png" style="width:100%"></a>
     <div class="text2">Online Bookcase using React Framework</div>
   </div>
 
@@ -81,29 +82,12 @@
   <span class="dot" onclick="currentSlide(3)"></span>
   <span class="dot" onclick="currentSlide(4)"></span>
 </div>
-
+</section>
   
-   
-   
-   <br/>
-   <br/>
-   <section id="portfolio"><!--PORTFOLIO WORK SECTION here i.e bookshop(css grids)-->
-    <h2>Projects:</h2>
-       <ul><a href="https://602c32518bf80c010e47f5ef--agitated-swartz-a0b1f0.netlify.app/"target="_blank" alt="bookcase site" Image not supported>Online Bookcase</a>
-       </ul>
-       <ul><a href="https://blissful-allen-1ecb3d.netlify.app/quiz.html"target="_blank" alt="Quiz webpage" Image not supported>Multiple Choice Quiz</a>
-      </ul> 
-      <href="" height="205.6px" width="377.6px" alt="bookshop website"Image not supported ></a>
-      <ol>
-        <ul><h3>National Theatre Wales Project</h3> <p>Coming soon!</p><!--Make into ancor to _blank--> </ul>  
-    </ol>
-   </section>
     
-    <br>
-    <br>
    <section><!--LANGUAGES I USE :info,would like the percentage style%-->
      <div class="languages">
-      <h2>Technologies:</h2> 
+      <h2>Technologies</h2> 
        <ul>
         <li>HTML5</li><!--Add icons-->
         <li>CSS3/SASS</li>
@@ -116,9 +100,6 @@
     </div>
    </section>
   
-
-  <br>
-  <br>
 
   <section id="about"><!--ABOUT ME SECTION-->
     <div class= "about"> <!--would like to branch out other non-central styling option--><!--(non-sem) use as container for elements and layout/combinators-->
@@ -137,7 +118,7 @@
 </main>
 
     
- <section class="contact"></section><!--CONTACT ME: section form-->
+ <section><!--CONTACT ME: section form-->
      <div id= "contact">
        <h3><strong>Contact Me</strong></h3>
        </br>
@@ -163,6 +144,7 @@
     </textarea></br><!--would like width of box larger-->
     <input type="submit" value='Submit'>
   </form>
+  </div>
   </section>
 
   </br>
@@ -180,9 +162,13 @@
     <img src="./HTMLImages\github-sign.png" height =" 51.2" width = "51.2" alt="github logo" Image not supported />
       </a> 
     </div>  
-    </div>   
-  </section>
-  </footer>
+    </div> 
+    <div class="copyright">
+    <span >Website created by Natasha Simone Bigford 2021</span>  
+  </div>
+</footer>
+
+
   <script>var slideIndex = 1;
     showSlides(slideIndex);
     
