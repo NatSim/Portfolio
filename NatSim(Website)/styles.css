@@ -180,6 +180,8 @@ p {
 
 .about-text {
   padding-left: 10px;
+  text-align: left;
+  padding: 0px 0px 0px 100px;
 }
 
 .aboutme-image {
