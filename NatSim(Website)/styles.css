@@ -12,7 +12,7 @@ body {
 main,
 section,
 footer {
-  padding: 20px 50px 70px 50px;
+  margin: 0px 10px 0px 10px;
   max-width: 100%;
 }
 
@@ -73,6 +73,7 @@ header {
   text-align: left;
   position: relative;
   animation: adjustIntroLayout 15s;
+  max-width: 100%;
 }
 
 @keyframes adjustIntroLayout {
@@ -200,16 +201,6 @@ p {
   border-radius: 10px;
 }
 
-/* @media only screen and (max-width: 802px) {
-  .aboutme-image {
-    border-radius: 10px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
-  }
-} */
-
 /*Technologies I USE*/
 
 .languages {
@@ -223,8 +214,7 @@ p {
   padding: inherit;
 }
 .language-list {
-  display: flex;
-  padding: 0px 50px 0px 0px;
+  padding: 0px 0px 0px 0px;
 }
 
 /*CUSTOMER TESTIMONIALS*/
