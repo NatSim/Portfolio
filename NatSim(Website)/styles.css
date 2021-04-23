@@ -184,6 +184,12 @@ p {
   padding: 0px 0px 0px 100px;
 }
 
+@media only screen and (max-width: 802px) {
+  .about-text {
+    padding: 0px 0px 0px 50px;
+  }
+}
+
 .aboutme-image {
   border-radius: 10px;
 }
