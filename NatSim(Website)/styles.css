@@ -178,21 +178,38 @@ p {
   padding: inherit;
 }
 
+@media only screen and (max-width: 802px) {
+  .about {
+    flex-wrap: wrap;
+  }
+}
+
 .about-text {
   padding-left: 10px;
-  text-align: left;
+
   padding: 0px 0px 0px 100px;
 }
 
 @media only screen and (max-width: 802px) {
   .about-text {
-    padding: 0px 0px 0px 50px;
+    padding: 0px 0px 0px 0px;
   }
 }
 
 .aboutme-image {
   border-radius: 10px;
 }
+
+/* @media only screen and (max-width: 802px) {
+  .aboutme-image {
+    border-radius: 10px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+} */
+
 /*Technologies I USE*/
 
 .languages {
@@ -207,6 +224,7 @@ p {
 }
 .language-list {
   display: flex;
+  padding: 0px 50px 0px 0px;
 }
 
 /*CUSTOMER TESTIMONIALS*/
