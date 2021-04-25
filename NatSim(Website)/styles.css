@@ -9,12 +9,12 @@ body {
 
 /* NAV BAR/HEADER */
 
-main,
+/* main,
 section,
 footer {
   margin: 0px 10px 0px 10px;
   max-width: 100%;
-}
+} */
 
 header,
 section,
@@ -220,6 +220,7 @@ p {
 .tech-logo-sizing-control {
   height: 200px;
   width: auto;
+  max-width: 100%;
 }
 
 /*CONTACT ME*/
@@ -260,6 +261,7 @@ footer {
   right: 0px;
   bottom: 0px;
   left: 0px;
+  list-style: none;
 }
 
 .icon-icons {
