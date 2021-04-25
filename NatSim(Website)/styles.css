@@ -228,6 +228,7 @@ p {
 }
 
 input[type="text"],
+[type="email"],
 textarea {
   border-radius: 4px; /* Rounded borders */
   box-sizing: border-box; /* Make sure that things stay in place */
