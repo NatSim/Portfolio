@@ -5,16 +5,10 @@ body {
   margin: 0px 0px; /*around whole of document*/
   font-family: hero-new, sans-serif;
   max-width: 100%;
+  margin: 50px 20px 50px 20px;
 }
 
 /* NAV BAR/HEADER */
-
-/* main,
-section,
-footer {
-  margin: 0px 10px 0px 10px;
-  max-width: 100%;
-} */
 
 header,
 section,
@@ -32,21 +26,10 @@ button {
   text-decoration: none;
 }
 
-header {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-
-  word-spacing: 30px;
-}
-
 #navbar {
   list-style: none;
-}
-
-#navbar li {
-  display: inline-block;
-  padding: 40px 20px;
+  display: flex;
+  justify-content: space-evenly;
 }
 
 #navbar li a {
@@ -65,6 +48,11 @@ header {
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+#portfolio,
+#intro-layout {
+  margin: 150px 0px 150px 0px;
 }
 
 #hello {
@@ -149,11 +137,12 @@ h1 {
   display: flex;
 }
 
-.about {
+.about-container {
   font-family: sans-serif;
   color: black;
   font-size: 25px;
   text-align: center;
+  margin: 150px 0px 150px 0px;
 }
 
 h2,
@@ -164,34 +153,22 @@ h3 {
   text-align: left;
 }
 
-p {
+p.about-text {
   font-family: sans-serif;
   color: black;
-  font-size: 25px;
-  text-align: center;
+  font-size: 18px;
+  text-align: left;
 }
 /*ABOUT SECTION*/
-.about {
+.about-flex-control {
   display: flex;
   align-items: center;
   padding: inherit;
 }
 
 @media only screen and (max-width: 802px) {
-  .about {
+  .about-flex-control {
     flex-wrap: wrap;
-  }
-}
-
-.about-text {
-  padding-left: 10px;
-
-  padding: 0px 0px 0px 100px;
-}
-
-@media only screen and (max-width: 802px) {
-  .about-text {
-    padding: 0px 0px 0px 0px;
   }
 }
 
@@ -252,7 +229,7 @@ footer {
   width: auto;
 }
 
-#icons_container {
+.icons_container {
   content: "";
   display: flex;
   top: 0px;
@@ -266,8 +243,14 @@ footer {
   padding: 5px;
 }
 
-* {
-  box-sizing: border-box;
+/* .icons_container {
+  margin: 50px 10px 50px 10px;
+} */
+
+.copyright {
+  text-align: center;
+  font-family: system-ui;
+  margin: 50px 10px 50px 10px;
 }
 
 /* Slideshow container */
@@ -377,9 +360,4 @@ footer {
 /* Image carousel text*/
 .text2 {
   color: black;
-}
-
-.copyright {
-  text-align: center;
-  font-family: system-ui;
 }

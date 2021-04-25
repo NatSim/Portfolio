@@ -15,7 +15,7 @@
 
 <body> <!--Body is the parent of header,&grand-parent of nav etc-->
 <header><!--nav/a are descendants of header, who is parent to them,can include logos/favicons?&authorship details-->
-  <nav>
+  <nav class="nav-spacing-control">
     <ul id="navbar"> <!--How to center and spreed out on top-->
       <li><a href="#about">About</a></li>
       <li><a href="#portfolio">Portfolio</a></li>
@@ -89,8 +89,8 @@
  
   
 
-<section id="about"><!--ABOUT ME SECTION--> 
-  <article class= "about"> <!--would like to branch out other non-central styling option--><!--(non-sem) use as container for elements and layout/combinators-->
+<section id="about" class= "about-container"><!--ABOUT ME SECTION--> 
+  <article class="about-flex-control"> <!--would like to branch out other non-central styling option--><!--(non-sem) use as container for elements and layout/combinators-->
   <div>
     <h2><strong>About me</strong></h2><!--ABOUT ME: h3 and p are descendants of section-->
     <figure>  
@@ -154,7 +154,7 @@
 
   </br>
   <footer>
-    <ul id="icons_container">
+    <ul class="icons_container">
       <li class="icon-icons">
         <a href="https://www.linkedin.com/in/natasha-simone-14310364/"
          target="_blank" alt="link to Natasha LinkedIn Profile">
