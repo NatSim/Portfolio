@@ -233,9 +233,13 @@ textarea {
   border-radius: 4px; /* Rounded borders */
   box-sizing: border-box; /* Make sure that things stay in place */
   margin: 6px 0px 16px 0px; /* Top right bottom left margin */
-  padding: 12px; /* Some surrounding space */
+  padding: 5px; /* Some surrounding space */
   resize: vertical; /* Allow users to vertically resize the textarea */
   width: 100%; /* Full width */
+}
+
+#message {
+  height: 250px;
 }
 
 /*SUBMIT BUTTON/FOOTER*/
@@ -252,7 +256,6 @@ footer {
 #icons_container {
   content: "";
   display: flex;
-
   top: 0px;
   right: 0px;
   bottom: 0px;
