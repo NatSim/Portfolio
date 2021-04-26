@@ -166,6 +166,9 @@ p.about-text {
   display: flex;
   align-items: center;
 }
+.about-text-control {
+  margin: 0px 50px 0px 50px;
+}
 
 @media only screen and (max-width: 802px) {
   .about-flex-control {
@@ -174,7 +177,7 @@ p.about-text {
 }
 
 .aboutme-image {
-  border-radius: 10px;
+  border-radius: 50%;
 }
 
 /*Technologies I USE*/
@@ -200,7 +203,7 @@ p.about-text {
   background-blend-mode: overlay, darken;
   background-image: url(./img/projects/portfolio_me.JPG);
   background-color: #ced0ce;
-  height: 600px;
+  height: fit-content;
 }
 
 /*CONTACT ME*/
