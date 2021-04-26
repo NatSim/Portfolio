@@ -178,6 +178,8 @@ p.about-text {
 
 .aboutme-image {
   border-radius: 50%;
+  height: 250px;
+  width: auto;
 }
 
 /*Technologies I USE*/
