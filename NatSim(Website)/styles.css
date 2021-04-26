@@ -1,11 +1,12 @@
-/*@import url ("https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous"); */
-/* section */
-body {
-  box-sizing: border-box;
-  margin: 0px 0px; /*around whole of document*/
-  font-family: hero-new, sans-serif;
-  max-width: 100%;
-  margin: 50px 20px 50px 20px;
+* {
+  margin: 0;
+}
+section #about,
+#portfolio,
+.about-flex-control,
+#skills,
+section #contact {
+  padding: 50px 25px 50px 25px;
 }
 
 /* NAV BAR/HEADER */
@@ -30,6 +31,8 @@ button {
   list-style: none;
   display: flex;
   justify-content: space-evenly;
+  padding: 50px 0px 50px 0px;
+  margin: 0;
 }
 
 #navbar li a {
@@ -50,9 +53,16 @@ button {
   justify-content: center;
 }
 
-#portfolio,
 #intro-layout {
-  margin: 150px 0px 150px 0px;
+  background-attachment: fixed;
+  background-blend-mode: overlay, darken;
+  background-image: url(./img/projects/portfolio_me.JPG);
+  background-color: #ced0ce;
+  height: 400px;
+}
+
+#intro-container {
+  background-image: url("./img/projects/portfolio_me.JPG");
 }
 
 #hello {
@@ -102,16 +112,9 @@ i {
 
 h1 {
   font-family: "Varela Round", sans-serif;
-  margin: 20px 0 0 0;
+  /* margin: 20px 0 0 0; */
 
   color: #0f0e0e;
-}
-
-#scroll {
-  font-family: sans-serif;
-  color: #0f0e0e;
-  font-size: 25px;
-  padding-top: 30px;
 }
 
 /*Page Intro-Transition*/
@@ -142,7 +145,6 @@ h1 {
   color: black;
   font-size: 25px;
   text-align: center;
-  margin: 150px 0px 150px 0px;
 }
 
 h2,
@@ -163,7 +165,6 @@ p.about-text {
 .about-flex-control {
   display: flex;
   align-items: center;
-  padding: inherit;
 }
 
 @media only screen and (max-width: 802px) {
@@ -186,10 +187,6 @@ p.about-text {
 }
 .languages ul li {
   list-style: none;
-  padding: inherit;
-}
-.language-list {
-  padding: 0px 0px 0px 0px;
 }
 
 .tech-logo-sizing-control {
@@ -243,14 +240,9 @@ footer {
   padding: 5px;
 }
 
-/* .icons_container {
-  margin: 50px 10px 50px 10px;
-} */
-
 .copyright {
   text-align: center;
   font-family: system-ui;
-  margin: 50px 10px 50px 10px;
 }
 
 /* Slideshow container */
