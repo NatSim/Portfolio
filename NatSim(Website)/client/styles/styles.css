@@ -56,13 +56,13 @@ button {
 #intro-layout {
   background-attachment: fixed;
   background-blend-mode: overlay, darken;
-  background-image: url(./img/projects/portfolio_me.JPG);
+  background-image: url(../img/projects/portfolio_me.JPG);
   background-color: #ced0ce;
   height: 400px;
 }
 
 #intro-container {
-  background-image: url("./img/projects/portfolio_me.JPG");
+  background-image: url("../img/projects/portfolio_me.JPG");
 }
 
 #hello {
@@ -120,7 +120,7 @@ h1 {
 /*Page Intro-Transition*/
 
 .intro-container {
-  animation: transitionIn 2.5s;
+  animation: transitionIn 2s;
 }
 
 @keyframes transitionIn {
@@ -203,7 +203,7 @@ p.about-text {
 #skills {
   background-attachment: fixed;
   background-blend-mode: overlay, darken;
-  background-image: url(./img/projects/portfolio_me.JPG);
+  background-image: url(../img/projects/portfolio_me.JPG);
   background-color: #ced0ce;
   height: fit-content;
 }
