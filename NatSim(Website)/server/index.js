@@ -4,7 +4,7 @@ const nodemailer = require("nodemailer");
 const path = require("path");
 
 require("dotenv").config();
-console.log(process.env.PASSWORD);
+console.log(process.env.PASSWORD); //{ path: path / "dot.env" }
 
 //Middleware
 app.use(express.static("../client/public"));
@@ -20,7 +20,7 @@ app.post("/", (req, res) => {
 
   const transporter = nodemailer.createTransport({
     service: "gmail",
-    auth: { user: "natsimbig@gmail.com", pass: "12345" },
+    auth: { user: "natsimbig@gmail.com", pass: process.env.PASSWORD },
   });
 
   const mailOptions = {
