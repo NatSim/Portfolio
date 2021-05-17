@@ -4,7 +4,7 @@ const nodemailer = require("nodemailer");
 const path = require("path");
 
 require("dotenv").config();
-console.log(process.env.PASSWORD); //{ path: path / "dot.env" }
+//{ path: path / "dot.env" }
 
 //Middleware
 app.use(express.static("../client/public"));
