@@ -30,6 +30,7 @@ app.post("/", (req, res) => {
     text: req.body.message,
   };
 
+  //currently unsuccessfull
   transporter.sendMail(mailOptions, (error, info) => {
     if (error) {
       console.log(error);
