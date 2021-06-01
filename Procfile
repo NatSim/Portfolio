@@ -1,2 +1,2 @@
 
-web:node /NatSim(Website)/server
+web:node /NatSim(Website)/client/src/index.js
