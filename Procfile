@@ -1,2 +1,2 @@
 
-web:node server/index.js
+web:cd NatSim\(Website\)/ node server/index.js
