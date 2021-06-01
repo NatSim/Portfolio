@@ -1,2 +1,2 @@
 
-web:cd NatSim(Website)/server && node index.js
+web:cd NatSim(Website)/server && npm start
