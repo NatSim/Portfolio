@@ -1,2 +1,2 @@
 
-web:node NatSim(Website)/server/index.js
+web:cd NatSim(Website)/server && node index.js
