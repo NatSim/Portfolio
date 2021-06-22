@@ -5,7 +5,8 @@ section #about,
 #portfolio,
 .about-flex-control,
 #skills,
-section #contact {
+section #contact,
+.about-container {
   padding: 50px 25px 50px 25px;
 }
 
@@ -136,31 +137,40 @@ h1 {
 
 /*ABOUT ME SECTION*/
 
-#about {
-  display: flex;
-}
-
+/* 
 .about-container {
   font-family: sans-serif;
   color: black;
   font-size: 25px;
   text-align: center;
-}
+} */
 
 h2,
 h3 {
   font-family: sans-serif;
   color: black;
   font-size: 30px;
-  text-align: left;
+  text-align: center;
+  padding: 0px 0px 50px 0px;
+}
+
+figcaption {
+  padding: 15px;
 }
 
 p.about-text {
   font-family: sans-serif;
   color: black;
-  font-size: 18px;
+  font-size: 25px;
   text-align: left;
 }
+
+@media only screen and (max-width: 802px) {
+  p.about-text {
+    text-align: center;
+  }
+}
+
 /*ABOUT SECTION*/
 .about-flex-control {
   display: flex;
