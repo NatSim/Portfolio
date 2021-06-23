@@ -74,8 +74,32 @@
 <!-- Slideshow container -->
   <section id="portfolio"><!--PORTFOLIO WORK SECTION here i.e bookshop(css grids)-->
     <h2>Projects</h2>
-    <div class="slideshow-container">
-
+    <div id="slides" class="carousel slide" data-ride="carousel">
+      <ul class="carousel-indicators">
+        <li data-target="#slides" data-slide-to="0" class="active"></li>
+        <li data-target="#slides" data-slide-to="1"></li>
+        <li data-target="#slides" data-slide-to="2"></li>
+        
+      </ul>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="./img/projects/gotellthebees.png" class="carousel-images">
+        <div class="carousel-caption">
+          <h1 class="display-2">National Theatre Wales</h1>
+          <h3>Responsive Web Application</h3>
+          <button type="button" class="btn btn-outline-light btn-lg">VIEW DEMO</button>
+        </div>
+      </div>
+      
+      <div class="carousel-item" >
+        <img src="./img/projects/quiz.png" class="carousel-images">
+      </div>
+      
+      <div class="carousel-item">
+        <img src="./img/projects/bookcase.png" class="carousel-images">
+      </div>
+      
+    </div>
   <!-- Full-width images with number and caption text -->
   <div class="mySlides fade">
     <div class="numbertext">1 / 4</div>
@@ -202,42 +226,11 @@
         </a> 
       </li>  
     </ul> 
-   <div class="copyright">
+    <div class="copyright">
     <span >Website created by Natasha Simone Bigford 2021 &copy;</span>  
-   </div>
-</footer>
-<script src="app.js"></script>
-
-  <script>var slideIndex = 1;
-    showSlides(slideIndex);
-    
-    function plusSlides(n) {
-      showSlides((slideIndex += n));
-    }
-    
-    function currentSlide(n) {
-      showSlides((slideIndex = n));
-    }
-    
-    function showSlides(n) {
-      var i;
-      var slides = document.getElementsByClassName("mySlides");
-      var dots = document.getElementsByClassName("dot");
-      if (n > slides.length) {
-        slideIndex = 1;
-      }
-      if (n < 1) {
-        slideIndex = slides.length;
-      }
-      for (i = 0; i < slides.length; i++) {
-        slides[i].style.display = "none";
-      }
-      for (i = 0; i < dots.length; i++) {
-        dots[i].className = dots[i].className.replace(" active", "");
-      }
-      slides[slideIndex - 1].style.display = "block";
-      dots[slideIndex - 1].className += " active";
-    }
-    </script>
+    </div>
+    </footer>
+  <script src="app.js"></script>
+  <script src="carousel.js"></script> 
 </body>
 </html>

@@ -15,7 +15,7 @@ section #contact,
   width: 50px;
   height: auto;
 }
-/*nav bar color*/
+
 .bg-dark {
   background-color: #d39e00 !important;
 }
@@ -25,6 +25,7 @@ a {
   color: #0f0e0e;
   list-style-type: none;
   text-decoration: none !important;
+  padding: 0%;
 }
 
 header,
@@ -40,21 +41,22 @@ button {
   color: #0f0e0e;
   text-decoration: none;
 }
-
-#navbar {
-  list-style: none;
-  display: flex;
-  justify-content: space-evenly;
-  padding: 50px 0px 50px 0px;
-  margin: 0;
+@media only screen and (min-width: 802px) {
+  ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 50px 0px 50px 0px;
+    margin: 0;
+  }
 }
 
-#navbar li a {
+li a {
   transition: all 0.3s ease 0s;
 }
 
-#navbar li a:hover {
-  color: #ffcf00;
+li a:hover {
+  color: white;
 }
 
 /*PAGE INTRO SECTION */
@@ -127,8 +129,6 @@ i {
 h1 {
   font-family: "Varela Round", sans-serif;
   /* margin: 20px 0 0 0; */
-
-  color: #0f0e0e;
 }
 
 /*Page Intro-Transition*/
@@ -161,7 +161,6 @@ h1 {
 h2,
 h3 {
   font-family: sans-serif;
-  color: black;
   font-size: 30px;
   text-align: center;
   padding: 0px 0px 50px 0px;
@@ -182,6 +181,12 @@ p.about-text {
   p.about-text {
     text-align: center;
   }
+}
+
+/*CAROUSEL SECTION*/
+.carousel-images {
+  width: fit-content;
+  max-width: 100%;
 }
 
 /*ABOUT SECTION*/
