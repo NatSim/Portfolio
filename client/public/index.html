@@ -6,7 +6,11 @@
   <meta name="robots" content="index,follow">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
    <title>NatSim | Full Stack Developer</title><!--Title shown at top bartab-->
-    
+   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">  
+   <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+   <script src="https://kit.fontawesome.com/e2f79781c4.js" crossorigin="anonymous"></script>
    <link rel="icon" href="img/logos/unicorn.png">
    <link rel="stylesheet" href="../styles/styles.css"> <!--CSS Stylesheet linked-->
    <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@1,700&display=swap" rel="stylesheet">
@@ -24,13 +28,31 @@
 
 <body> <!--Body is the parent of header,&grand-parent of nav etc-->
 <header><!--nav/a are descendants of header, who is parent to them,can include logos/favicons?&authorship details-->
-  <nav class="nav-spacing-control">
-    <ul id="navbar"> <!--How to center and spreed out on top-->
-      <li><a href="#about">About</a></li>
-      <li><a href="#portfolio">Portfolio</a></li>
-       <li><a href="#skills">Skills</a></li> 
-       <li><a href="#contact">Contact</a></li>
-     </ul>
+       
+     <div class="pos-f-t">
+      <div class="collapse" id="navbarToggleExternalContent">
+        <div class="bg-dark p-4">
+          <h4 class="text-white">
+            <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#skills">Skills</a></li> 
+            <li><a href="#contact">Contact</a></li>
+           </ul>
+         </h4>
+          <span class="text-muted">
+           
+          </span>
+        </div>
+      </div>
+      <nav class="navbar navbar-dark bg-dark">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      </nav>
+    </div>
+  <!-- </div> -->
+   
   </nav>   
 </header>
 
@@ -99,9 +121,9 @@
   
 
 <section id="about" class= "about-container"><!--ABOUT ME SECTION--> 
+  <h2>About me</h2><!--ABOUT ME: h3 and p are descendants of section-->
   <article class="about-flex-control"> <!--would like to branch out other non-central styling option--><!--(non-sem) use as container for elements and layout/combinators-->
   <div class="about-text-control">
-    <h2><strong>About me</strong></h2><!--ABOUT ME: h3 and p are descendants of section-->
     <figure>  
       <img class="aboutme-image" src="./img/projects/portfolio_me.JPG" height="475.2px" width="316.8px" alt="Photo of NatSim"Image not supported/>
       <figcaption> <em>Meet the face behind the page</em></figcaption>
@@ -143,6 +165,8 @@
        </br>
        <mark>Email:natsimbig@gmail.com</mark>  
        </br>
+       <br/>
+       <span>or</span>
        </br>
        <br><u>Please fill in the form below.</u></br>
        </br>

@@ -11,6 +11,21 @@ section #contact,
 }
 
 /* NAV BAR/HEADER */
+.unicorn-logo {
+  width: 50px;
+  height: auto;
+}
+/*nav bar color*/
+.bg-dark {
+  background-color: #d39e00 !important;
+}
+
+li,
+a {
+  color: #0f0e0e;
+  list-style-type: none;
+  text-decoration: none !important;
+}
 
 header,
 section,
@@ -18,8 +33,6 @@ footer {
   animation: transitionIn 25s;
 }
 
-li,
-a,
 button {
   font-family: sans-serif;
   font-weight: 500;
