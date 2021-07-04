@@ -1,6 +1,7 @@
 * {
   margin: 0;
 }
+
 section #about,
 #portfolio,
 .about-flex-control,
@@ -23,7 +24,8 @@ section #contact,
 header,
 section,
 footer {
-  animation: transitionIn 25s;
+  -webkit-animation: transitionIn 25s;
+          animation: transitionIn 25s;
 }
 
 button {
@@ -35,21 +37,26 @@ button {
 }
 
 li a {
+  -webkit-transition: all 0.3s ease 0s;
   transition: all 0.3s ease 0s;
 }
 
 /* li a:hover {
   color: white;
 } */
-
 /*PAGE INTRO SECTION */
-
 #intro-layout {
   position: relative;
   width: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  align-items: center;
-  justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 #intro-layout {
@@ -69,8 +76,18 @@ li a {
   font-size: 35px;
   text-align: left;
   position: relative;
-  animation: adjustIntroLayout 15s;
+  -webkit-animation: adjustIntroLayout 15s;
+          animation: adjustIntroLayout 15s;
   max-width: 100%;
+}
+
+@-webkit-keyframes adjustIntroLayout {
+  from {
+    text-align: center;
+  }
+  to {
+    text-align: left;
+  }
 }
 
 @keyframes adjustIntroLayout {
@@ -86,17 +103,19 @@ li a {
   color: #343a40;
   position: relative;
 }
+
 #creative2 {
   font-family: NSimSun;
-  color: #343a40; /*Liking Pop colour theme*/
-
+  color: #343a40;
+  /*Liking Pop colour theme*/
   position: relative;
   font-family: "Varela Round", sans-serif;
 }
 
 /**Page intro transition on name*/
 #natsim {
-  animation: transitionIn 20s;
+  -webkit-animation: transitionIn 20s;
+          animation: transitionIn 20s;
   color: #ffcf00;
 }
 
@@ -116,24 +135,38 @@ h1 {
 }
 
 /*Page Intro-Transition*/
-
 .intro-container {
-  animation: transitionIn 2s;
+  -webkit-animation: transitionIn 2s;
+          animation: transitionIn 2s;
+}
+
+@-webkit-keyframes transitionIn {
+  from {
+    opacity: 0;
+    -webkit-transform: rotateX(-10deg);
+            transform: rotateX(-10deg);
+  }
+  to {
+    opacity: 1;
+    -webkit-transform: rotateX(0);
+            transform: rotateX(0);
+  }
 }
 
 @keyframes transitionIn {
   from {
     opacity: 0;
-    transform: rotateX(-10deg);
+    -webkit-transform: rotateX(-10deg);
+            transform: rotateX(-10deg);
   }
   to {
     opacity: 1;
-    transform: rotateX(0);
+    -webkit-transform: rotateX(0);
+            transform: rotateX(0);
   }
 }
 
 /*ABOUT ME SECTION*/
-
 h2,
 h3 {
   font-family: sans-serif;
@@ -161,22 +194,30 @@ p.about-text {
 
 /*CAROUSEL SECTION*/
 .carousel-images {
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
   width: fit-content;
   max-width: 100%;
 }
 
 /*ABOUT SECTION*/
 .about-flex-control {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  align-items: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
+
 .about-text-control {
   margin: 0px 50px 0px 50px;
 }
 
 @media only screen and (max-width: 802px) {
   .about-flex-control {
-    flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
   }
 }
 
@@ -187,13 +228,13 @@ p.about-text {
 }
 
 /*Technologies I USE*/
-
 .languages {
   font-family: consolas;
   color: black;
   font-size: 25px;
   text-align: center;
 }
+
 .languages ul li {
   list-style: none;
 }
@@ -209,6 +250,8 @@ p.about-text {
   background-blend-mode: overlay, darken;
   background-image: url(../img/projects/portfolio_me.JPG);
   background-color: #ced0ce;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
   height: fit-content;
 }
 
@@ -220,12 +263,19 @@ p.about-text {
 input[type="text"],
 [type="email"],
 textarea {
-  border-radius: 4px; /* Rounded borders */
-  box-sizing: border-box; /* Make sure that things stay in place */
-  margin: 6px 0px 16px 0px; /* Top right bottom left margin */
-  padding: 5px; /* Some surrounding space */
-  resize: vertical; /* Allow users to vertically resize the textarea */
-  width: 100%; /* Full width */
+  border-radius: 4px;
+  /* Rounded borders */
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  /* Make sure that things stay in place */
+  margin: 6px 0px 16px 0px;
+  /* Top right bottom left margin */
+  padding: 5px;
+  /* Some surrounding space */
+  resize: vertical;
+  /* Allow users to vertically resize the textarea */
+  width: 100%;
+  /* Full width */
 }
 
 #message {
@@ -245,6 +295,8 @@ footer {
 
 .icons_container {
   content: "";
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   top: 0px;
   right: 0px;
@@ -286,9 +338,13 @@ footer {
   color: white;
   font-weight: bold;
   font-size: 18px;
+  -webkit-transition: 0.6s ease;
   transition: 0.6s ease;
   border-radius: 0 3px 3px 0;
-  user-select: none;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
 }
 
 /* Position the "next button" to the right */
@@ -332,6 +388,7 @@ footer {
   background-color: #bbb;
   border-radius: 50%;
   display: inline-block;
+  -webkit-transition: background-color 0.6s ease;
   transition: background-color 0.6s ease;
 }
 
@@ -371,21 +428,16 @@ li.nav-item.active:hover {
 }
 
 /*---Media Queries --*/
-@media (max-width: 992px) {
-}
-@media (max-width: 768px) {
-}
-@media (max-width: 576px) {
-}
-
 /*---Firefox Bug Fix --*/
 .carousel-item {
   transition: -webkit-transform 0.5s ease;
+  -webkit-transition: -webkit-transform 0.5s ease;
   transition: transform 0.5s ease;
   transition: transform 0.5s ease, -webkit-transform 0.5s ease;
   -webkit-backface-visibility: visible;
   backface-visibility: visible;
 }
+
 /*--- Fixed Background Image --*/
 figure {
   position: relative;
@@ -393,6 +445,7 @@ figure {
   height: 60%;
   margin: 0 !important;
 }
+
 .fixed-wrap {
   clip: rect(0, auto, auto, 0);
   position: absolute;
@@ -401,6 +454,7 @@ figure {
   width: 100%;
   height: 100%;
 }
+
 #fixed {
   background-image: url("img/mac.png");
   position: fixed;
@@ -415,6 +469,7 @@ figure {
   transform: translateZ(0);
   will-change: transform;
 }
+
 /*--- Bootstrap Padding Fix --*/
 [class*="col-"] {
   padding: 1rem;
@@ -436,3 +491,4 @@ Large (lg) devices (desktops, 992px and up)
 Extra (xl) large devices (large desktops, 1200px and up)
 @media (min-width: 1200px) { ... }
 */
+/*# sourceMappingURL=custom.css.map */
