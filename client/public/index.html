@@ -12,7 +12,7 @@
    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
    <script src="https://kit.fontawesome.com/e2f79781c4.js" crossorigin="anonymous"></script>
    <link rel="icon" href="img/logos/unicorn.png">
-   <link rel="stylesheet" href="../styles/styles.css">
+   <link rel="stylesheet" href="../styles/custom.css">
    <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@1,700&display=swap" rel="stylesheet">
    <link rel="stylesheet" href="https://use.typekit.net/ran7cgb.css">
    <link href="https://www.flaticon.com/authors/dave-gandy" title="Dave Gandy"></a><a href="https://www.flaticon.com/"></a>
@@ -25,7 +25,7 @@
 
   gtag('config', 'G-ZVFK4L42ZL');
 </script>
-  </head>
+</head>
 
 <body> 
 <header> 
@@ -95,7 +95,9 @@
   <div class="container pt-5">
     <div class="row">
       <div class="col-lg-4 pb-5">
-        <!--Card-->
+
+        <!--Card1-->
+
         <div class="card ho">
           <!--Card image-->
           <div class="view overlay">
@@ -113,12 +115,51 @@
             <a class="btn blue-gradient" href="https://www.gotellthebees.org/">VIEW DEMO</a>
           </div>
 
+          <!--Card2-->
+
+          <div class="card ho">
+            <!--Card image-->
+            <div class="view overlay">
+              <img class="card-img-top" src="./img/projects/bookcase.png" target="_blank" style="width:100%"  alt="GTTBs webpage" Image not supported /> <a href="https://readingbookcase.netlify.app"></a>
+            </div>
+            <!--Card conetnt-->
+            <div class="card-body">
+              <!--Title-->
+              <h4 class="card-title">Online Bookcase Application</h4>
+              <!--Text-->
+              <p class="card-text">
+               An Online Bookcase using React Framework
+              </p>
+              <!--Button-->
+              <a class="btn blue-gradient" href="https://readingbookcase.netlify.app">VIEW DEMO</a>
+            </div>
+
+            <!--Card3-->
+
+          <div class="card ho">
+            <!--Card image-->
+            <div class="view overlay">
+              <img class="card-img-top" src="./img/projects/quiz.png" target="_blank" style="width:100%"  alt="GTTBs webpage" Image not supported /> <a href="https://popmusicquiz.netlify.app/quiz.html"></a>
+            </div>
+            <!--Card conetnt-->
+            <div class="card-body">
+              <!--Title-->
+              <h4 class="card-title">Online Multiple Choice Quiz</h4>
+              <!--Text-->
+              <p class="card-text">
+               An Multiple choice quiz using Vanilla JavaScript
+              </p>
+              <!--Button-->
+              <a class="btn blue-gradient" href="https://popmusicquiz.netlify.app/quiz.html">VIEW DEMO</a>
+            </div>
+
+     
+         </div>
         </div>
       </div>
-      <div class="col-lg-4 pb-5"></div>
-      <div class="col-lg-4 pb-5"></div>
     </div>
   </div>
+</div>
 </div>
 
 
@@ -217,7 +258,6 @@
 </div>
 </section>
 
-
     
  <section><!--CONTACT ME: section form-->
      <div id= "contact">
@@ -274,6 +314,11 @@
     </div>
     </footer>
   <script src="app.js"></script>
-  <script src="carousel.js"></script> 
+  <script src="carousel.js"></script>
+  <script>
+    $(document).ready(function () {
+      new WOW().init();
+    })
+  </script> 
 </body>
 </html>
