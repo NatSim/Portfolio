@@ -25,7 +25,7 @@ header,
 section,
 footer {
   -webkit-animation: transitionIn 25s;
-          animation: transitionIn 25s;
+  animation: transitionIn 25s;
 }
 
 button {
@@ -52,11 +52,11 @@ li a {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
 }
 
 #intro-layout {
@@ -77,7 +77,7 @@ li a {
   text-align: left;
   position: relative;
   -webkit-animation: adjustIntroLayout 15s;
-          animation: adjustIntroLayout 15s;
+  animation: adjustIntroLayout 15s;
   max-width: 100%;
 }
 
@@ -115,7 +115,7 @@ li a {
 /**Page intro transition on name*/
 #natsim {
   -webkit-animation: transitionIn 20s;
-          animation: transitionIn 20s;
+  animation: transitionIn 20s;
   color: #ffcf00;
 }
 
@@ -137,19 +137,19 @@ h1 {
 /*Page Intro-Transition*/
 .intro-container {
   -webkit-animation: transitionIn 2s;
-          animation: transitionIn 2s;
+  animation: transitionIn 2s;
 }
 
 @-webkit-keyframes transitionIn {
   from {
     opacity: 0;
     -webkit-transform: rotateX(-10deg);
-            transform: rotateX(-10deg);
+    transform: rotateX(-10deg);
   }
   to {
     opacity: 1;
     -webkit-transform: rotateX(0);
-            transform: rotateX(0);
+    transform: rotateX(0);
   }
 }
 
@@ -157,12 +157,12 @@ h1 {
   from {
     opacity: 0;
     -webkit-transform: rotateX(-10deg);
-            transform: rotateX(-10deg);
+    transform: rotateX(-10deg);
   }
   to {
     opacity: 1;
     -webkit-transform: rotateX(0);
-            transform: rotateX(0);
+    transform: rotateX(0);
   }
 }
 
@@ -206,8 +206,8 @@ p.about-text {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
 }
 
 .about-text-control {
@@ -217,7 +217,7 @@ p.about-text {
 @media only screen and (max-width: 802px) {
   .about-flex-control {
     -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
+    flex-wrap: wrap;
   }
 }
 
@@ -229,9 +229,6 @@ p.about-text {
 
 /*Technologies I USE*/
 .languages {
-  font-family: consolas;
-  color: black;
-  font-size: 25px;
   text-align: center;
 }
 
@@ -266,7 +263,7 @@ textarea {
   border-radius: 4px;
   /* Rounded borders */
   -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
   /* Make sure that things stay in place */
   margin: 6px 0px 16px 0px;
   /* Top right bottom left margin */
@@ -342,9 +339,9 @@ footer {
   transition: 0.6s ease;
   border-radius: 0 3px 3px 0;
   -webkit-user-select: none;
-     -moz-user-select: none;
-      -ms-user-select: none;
-          user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
 }
 
 /* Position the "next button" to the right */
