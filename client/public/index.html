@@ -58,12 +58,12 @@
 
 <main>
   <!--Page Intro Section-->
-  <section class="intro-container">
+  <section class="intro-container container" >
     <div id="intro-layout"> <!--element seperating or expanding &grouping common content/class reference for css styling-->   
       <div id="hello">
       <h1>Welcome...</h1> <!--would like each h1 to appear in sequence JavaScript state feature?-->
       <div id="iam">
-      <h1> I am<span id="natsim">Natasha Simone</span></h1> 
+      <h1> I am<span id="natsim">&nbsp;Natasha Simone</span></h1> 
       <div id="creative2">
       <em> a full stack software developer...</em>            
       </div>
@@ -94,11 +94,9 @@
 <div class="pt-5">
   <div class="container pt-5">
     <div class="row">
-      <div class="col-lg-4 pb-5">
-
-        <!--Card1-->
-
-        <div class="card ho">
+      
+      <div class="col-lg-4 pb-5"><!--Column START-->
+        <div class="card ho"><!--Card1 START-->
           <!--Card image-->
           <div class="view overlay">
             <img class="card-img-top" src="./img/projects/gotellthebees.png" target="_blank" style="width:100%"  alt="GTTBs webpage" Image not supported /> <a href="https://gotellthebees.netlify.app/"></a>
@@ -113,50 +111,51 @@
             </p>
             <!--Button-->
             <a class="btn blue-gradient" href="https://www.gotellthebees.org/">VIEW DEMO</a>
-          </div>
-
-          <!--Card2-->
-
-          <div class="card ho">
-            <!--Card image-->
-            <div class="view overlay">
-              <img class="card-img-top" src="./img/projects/bookcase.png" target="_blank" style="width:100%"  alt="GTTBs webpage" Image not supported /> <a href="https://readingbookcase.netlify.app"></a>
-            </div>
-            <!--Card conetnt-->
-            <div class="card-body">
-              <!--Title-->
-              <h4 class="card-title">Online Bookcase Application</h4>
-              <!--Text-->
-              <p class="card-text">
-               An Online Bookcase using React Framework
-              </p>
-              <!--Button-->
-              <a class="btn blue-gradient" href="https://readingbookcase.netlify.app">VIEW DEMO</a>
-            </div>
-
-            <!--Card3-->
-
-          <div class="card ho">
-            <!--Card image-->
-            <div class="view overlay">
-              <img class="card-img-top" src="./img/projects/quiz.png" target="_blank" style="width:100%"  alt="GTTBs webpage" Image not supported /> <a href="https://popmusicquiz.netlify.app/quiz.html"></a>
-            </div>
-            <!--Card conetnt-->
-            <div class="card-body">
-              <!--Title-->
-              <h4 class="card-title">Online Multiple Choice Quiz</h4>
-              <!--Text-->
-              <p class="card-text">
-               An Multiple choice quiz using Vanilla JavaScript
-              </p>
-              <!--Button-->
-              <a class="btn blue-gradient" href="https://popmusicquiz.netlify.app/quiz.html">VIEW DEMO</a>
-            </div>
-
+          </div>     
+        </div><!--Card1 END-->
+      </div><!--Column END-->
      
-         </div>
+
+      <div class="col-lg-4 pb-5"> <!--Column START-->
+        <div class="card ho">  <!--Card2 START-->
+        <!--Card image-->
+          <div class="view overlay">
+          <img class="card-img-top" src="./img/projects/bookcase.png" target="_blank" style="width:100%"  alt="GTTBs webpage" Image not supported /> <a href="https://readingbookcase.netlify.app"></a>
+          </div>
+          <!--Card content-->
+          <div class="card-body">
+          <!--Title-->
+          <h4 class="card-title">Online Bookcase Application</h4>
+          <!--Text-->
+          <p class="card-text">
+           An Online Bookcase using React Framework
+          </p>
+          <!--Button-->
+          <a class="btn blue-gradient" href="https://readingbookcase.netlify.app">VIEW DEMO</a>
+          </div>
         </div>
-      </div>
+      </div> <!--Column END-->
+      
+
+      <div class="col-lg-4 pb-5"> <!--Column START-->
+        <div class="card ho"> <!--Card3-->
+          <!--Card image-->
+          <div class="view overlay">
+            <img class="card-img-top" src="./img/projects/quiz.png" target="_blank" style="width:100%"  alt="GTTBs webpage" Image not supported /> <a href="https://popmusicquiz.netlify.app/quiz.html"></a>
+          </div>
+          <!--Card conetnt-->
+          <div class="card-body">
+            <!--Title-->
+            <h4 class="card-title">Online Multiple Choice Quiz</h4>
+            <!--Text-->
+            <p class="card-text">
+             An Multiple choice quiz using Vanilla JavaScript
+            </p>
+            
+            <a class="btn blue-gradient" href="https://popmusicquiz.netlify.app/quiz.html">VIEW DEMO</a><!--Button-->
+          </div>
+        </div><!--Card3 END-->
+      </div><!--Column END-->
     </div>
   </div>
 </div>
@@ -166,8 +165,8 @@
 
 
 
-  <section id="skills" class="languages" ><!--TECHNICAL :info,would like the percentage style%-->
-  <div>
+  <section id="skills" class="languages " ><!--TECHNICAL :info,would like the percentage style%-->
+  <div class="container"> <!--Add columns to each logo*****4 in a row-->
    <h2>Technical Skills</h2> 
     <div class="language-list">
      <img class="tech-logo-sizing-control" src="./img/languages/html1.png" alt="html" />
