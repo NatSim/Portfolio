@@ -1,10 +1,12 @@
 @import "node_modules/bootstrap/scss/bootstrap";
-
-//.Practice SCSS
-
 * {
   margin: 0;
 }
+
+body {
+  font-family: hero-new, sans-serif;
+}
+
 section #about,
 #portfolio,
 .about-flex-control,
@@ -12,8 +14,6 @@ section #about,
 section #contact,
 .about-container {
   padding: 50px 25px 50px 25px;
-
-  background-color: #ffcf00;
 }
 
 /* NAV BAR/HEADER */
@@ -56,6 +56,7 @@ li a {
   display: flex;
   align-items: center;
   justify-content: center;
+  margin: 50px 0px 200px 0px;
 }
 
 #intro-layout {
@@ -142,10 +143,9 @@ h1 {
 
 h2,
 h3 {
-  font-family: sans-serif;
   font-size: 30px;
-  text-align: center;
-  padding: 0px 0px 50px 0px;
+  text-align: left;
+  padding: 50px 0px 50px 0px;
 }
 
 figcaption {
@@ -153,8 +153,7 @@ figcaption {
 }
 
 p.about-text {
-  font-family: sans-serif;
-  color: black;
+  color: white;
   font-size: 25px;
   text-align: left;
 }
@@ -163,6 +162,11 @@ p.about-text {
   p.about-text {
     text-align: center;
   }
+}
+
+.about-container {
+  background-color: #ffcf00;
+  color: white;
 }
 
 /*CAROUSEL SECTION*/
@@ -240,6 +244,10 @@ textarea {
 input[type="submit"]:hover {
   background-color: rgba(245, 241, 8, 0.856);
   margin-bottom: 50px;
+}
+
+input.submit {
+  margin: 0px 0px 50px 0px;
 }
 
 footer {
@@ -427,16 +435,12 @@ figure {
 /*
 Extra small (xs) devices (portrait phones, less than 576px)
 No media query since this is the default in Bootstrap
-
 Small (sm) devices (landscape phones, 576px and up)
 @media (min-width: 576px) { ... }
-
 Medium (md) devices (tablets, 768px and up)
 @media (min-width: 768px) { ... }
-
 Large (lg) devices (desktops, 992px and up)
 @media (min-width: 992px) { ... }
-
 Extra (xl) large devices (large desktops, 1200px and up)
 @media (min-width: 1200px) { ... }
 */
