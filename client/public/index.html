@@ -72,7 +72,8 @@
   </section>  <!--Page Intro Section END-->
  
   
-  <section id="about" class= "about-container"><!--ABOUT ME SECTION START--> 
+  <section id="about" class= "about-container"><!--ABOUT ME SECTION START-->
+    <div class="container">
     <h2>About me</h2><!--ABOUT ME: h3 and p are descendants of section-->
     <article class="about-flex-control"> <!--would like to branch out other non-central styling option--><!--(non-sem) use as container for elements and layout/combinators-->
     <div class="about-text-control">
@@ -88,6 +89,7 @@
     </p>
     </div>
   </article>
+  </div> 
   </section><!--ABOUT ME SECTION END-->  
 
   
@@ -180,7 +182,7 @@
 </main>
 
 
-  <section id="testimonals"><!-- Testimonals Slideshow container START-->
+  <section id="testimonals" class="container"><!-- Testimonals Slideshow container START-->
   <h2>Testimonals</h2>
   <div id="slides" class="carousel slide" data-ride="carousel">
     <ul class="carousel-indicators">
@@ -211,46 +213,35 @@
 <!-- Full-width images with number and caption text -->
 <div class="mySlides fade">
   <div class="numbertext">1 / 4</div>
-    <img src="./img/projects/GoTellTheBees.jpg" style="width:100%">
+   
   <div class="text2">Figma Design for National Theatre Wales(Show) Responsive Web Application</div>
 </div>
 
 <div class="mySlides fade">
   <div class="numbertext">2 / 4</div>
-   <a href="https://gotellthebees.netlify.app/"target="_blank" alt="GTTBs webpage" Image not supported><img src="./img/projects/gotellthebees.png" style="width:100%" ></a>
+   
    <div class="text">Responsive web application for National Theatre Wales(Show) using React Framework</div>
 </div>
 
 <div class="mySlides fade">
   <div class="numbertext">3 / 4</div>
-  <a href="https://popmusicquiz.netlify.app/quiz.html"target="_blank" alt="Quiz webpage" Image not supported><img src="./img/projects/quiz.png" style="width:100%" ></a>
+ 
   <div class="text2">Online Quiz using HTML/CSS & JavaScript</div>
 </div>
 
 <div class="mySlides fade">
   <div class="numbertext">4 / 4</div>
-  <a href="https://readingbookcase.netlify.app"target="_blank" alt="bookcase site" Image not supported><img src="./img/projects/bookcase.png" style="width:100%"></a>
+ 
   <div class="text2">Online Bookcase using React Framework</div>
 </div>
 
-<!-- Next and previous buttons -->
-<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-<a class="next" onclick="plusSlides(1)">&#10095;</a>
-</div>
-<br>
 
-<!-- The dots/circles -->
-<div style="text-align:center">
-<span class="dot" onclick="currentSlide(1)"></span>
-<span class="dot" onclick="currentSlide(2)"></span>
-<span class="dot" onclick="currentSlide(3)"></span>
-<span class="dot" onclick="currentSlide(4)"></span>
-</div>
+
   </section><!-- Testimonals Slideshow container END-->
 
     
   <section><!--CONTACT ME: section form START-->
-    <div id= "contact">
+    <div id= "contact" class="container">
       <h3><strong>Contact Me</strong></h3>
         </br>
         <mark>Email:natsimbig@gmail.com</mark>  
@@ -279,7 +270,7 @@
     </br><!--Change to margin-->
 
   <footer>
-    <ul class="icons_container">
+    <ul class="icons_container container">
       <li class="icon-icons">
         <a href="https://www.linkedin.com/in/natasha-simone-14310364/"
          target="_blank" alt="link to Natasha LinkedIn Profile">
