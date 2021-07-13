@@ -193,8 +193,11 @@ p.about-text {
 .languages ul li {
   list-style: none;
 }
+
 .language-list {
-  padding: 20px 10px 100px 10px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
 }
 
 .tech-logo-sizing-control {
@@ -216,7 +219,7 @@ p.about-text {
   padding: 5%;
 }
 
-/*CONTACT ME*/
+/*CONTACT ME FORM*/
 .contact {
   color: black;
 }
