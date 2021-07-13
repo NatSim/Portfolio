@@ -139,36 +139,18 @@ figcaption {
 }
 
 p.about-text {
-  color: white;
+  color: #ffcf00;
   font-size: 25px;
   text-align: left;
-  font-weight: bold;
+  background-color: white;
+  border-radius: 5px;
+  padding: 10px 10px 10px 10px;
 }
 
 @media only screen and (max-width: 802px) {
   p.about-text {
     text-align: center;
   }
-}
-
-.about-container,
-.about-text,
-.aboutme-image,
-.container,
-figcaption > em {
-  position: relative;
-}
-
-.about-container::before {
-  content: "";
-  position: absolute;
-  top: 0px;
-  right: 0px;
-  bottom: 0px;
-  left: 0px;
-  background-color: #ffcf00;
-  background-size: cover;
-  opacity: 65%;
 }
 
 /*CAROUSEL SECTION*/
@@ -211,19 +193,27 @@ figcaption > em {
 .languages ul li {
   list-style: none;
 }
+.language-list {
+  padding: 20px 10px 100px 10px;
+}
 
 .tech-logo-sizing-control {
-  height: 200px;
+  height: 100px;
   width: auto;
   max-width: 100%;
 }
 
-#skills {
+.background-overlay-image {
   background-attachment: fixed;
   background-blend-mode: overlay, darken;
   background-image: url(../img/projects/portfolio_me.JPG);
   background-color: #ced0ce;
   height: fit-content;
+  padding: 5%;
+}
+
+.background-padding-sizing {
+  padding: 5%;
 }
 
 /*CONTACT ME*/
