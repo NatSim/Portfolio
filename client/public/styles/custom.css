@@ -212,12 +212,11 @@ p.about-text {
   background-image: url(../img/projects/portfolio_me.JPG);
   background-color: #ced0ce;
   height: fit-content;
-  padding: 5%;
 }
 
-.background-padding-sizing {
-  padding: 5%;
-}
+/* .background-padding-sizing {
+  padding: 10%;
+} */
 
 /*CONTACT ME FORM*/
 .contact {
