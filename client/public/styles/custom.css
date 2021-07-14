@@ -132,12 +132,10 @@ figcaption {
 }
 
 p.about-text {
-  color: #ffcf00;
   font-size: 25px;
   text-align: left;
-  background-color: white;
-  border-radius: 5px;
-  padding: 10px 10px 10px 10px;
+  background-color: #ffffff78;
+  border-radius: 30px;
 }
 
 @media only screen and (max-width: 802px) {
@@ -152,7 +150,6 @@ p.about-text {
   max-width: 100%;
 }
 
-/*ABOUT SECTION*/
 .about-flex-control {
   display: flex;
   align-items: center;
